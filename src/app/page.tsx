@@ -21,6 +21,8 @@ import { HackathonSkeleton } from "@/components/skeletons/hackathon-skeleton";
 import { BorderBeam } from "@/components/magicui/border-beam";
 import { GhibliSkyBackground } from "@/components/ghibli-elements";
 import DonatePopup from './donate/page';
+import { TestiCard } from '@/components/testi-card';
+import { TestiSkeleton } from '@/components/skeletons/testi-skeleton';
 const BLUR_FADE_DELAY = 0.04;
 export const metadata: Metadata = {
   title: DATA.name,
@@ -265,6 +267,46 @@ export default function Page() {
               </div>
             </div>
           </BlurFade>
+          </section>
+  <section id="testimonials">
+          <div className="space-y-12 w-full py-12">
+            <BlurFade delay={BLUR_FADE_DELAY * 11}>
+              <div className="flex flex-col items-center justify-center space-y-4 text-center">
+                <div className="space-y-2">
+                  <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                    Testimonials
+                  </div>
+                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                    What People Say
+                  </h2>
+                  <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                    Feedback from clients and collaborators I've had the pleasure of working with.
+                  </p>
+                </div>
+              </div>
+            </BlurFade>
+            <BlurFade delay={BLUR_FADE_DELAY * 12}>
+              <div className="space-y-6">
+                {DATA.testimonials.map((testimonial, id) => (
+                  <BlurFade
+                    key={testimonial.name}
+                    delay={BLUR_FADE_DELAY * 13 + id * 0.05}
+                  >
+                    <div className="w-full max-w-4xl mx-auto">
+                      <TestiCard
+                        title={testimonial.name}
+                        headline={testimonial.headline}
+                        image={testimonial.image}
+                        
+                        description={testimonial.description}
+                        href="#"
+                      />
+                    </div>
+                  </BlurFade>
+                ))}
+              </div>
+            </BlurFade>
+          </div>
         </section>
 <section id="donate">
   <BlurFade delay={BLUR_FADE_DELAY * 17}>
