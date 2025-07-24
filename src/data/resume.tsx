@@ -63,7 +63,7 @@ export const DATA = {
 
       email: {
         name: "Send Email",
-        url: "zaidshabbir666@gmail.com",
+        url: "mailto:zaidshabbir666@gmail.com",
         icon: Icons.email,
         navbar: false,
       },
@@ -153,21 +153,22 @@ export const DATA = {
   // ],
   education: [
     {
-      school: "Trident Academy Of Technology",
-      href: "https://tat.ac.in/",
-      degree: "B.Tech in Computer Science and Information Technology",
-      logoUrl: "/buildspace.webp",
-      start: "2020",
-      end: "2024",
+      school: "",
+      href: "",
+      degree: "",
+      logoUrl: "",
+      start: "",
+      end: "",
     },
-    {
-      school: "Netaji Subhas Memorial City College",
-      href: "https://www.nsmcity.ac.in/index.asp",
-      degree: "Higher Secondary",
-      logoUrl: "/waterloo.webp",
-      start: "2019",
-      end: "2021",
+       {
+      school: "",
+      href: "",
+      degree: "",
+      logoUrl: "",
+      start: "",
+      end: "",
     },
+   
   ],
   projects: [
     {

@@ -246,7 +246,7 @@ export default function Page() {
               
               <div className="mt-6 space-y-4">
                 <a
-                  href="mailto:prasen.nayak@hotmail.com"
+                  href="mailto:zaidshabbir666@gmail.com"
                   className="flex items-center gap-2 underline underline-offset-4 hover:opacity-70 transition-opacity"
                 >
                   <Icons.email className="size-4" />
