@@ -340,7 +340,14 @@ export const DATA = {
       description:
         "I recommend Zaid for his clear English verbal and written communication, intellect, and perseverance. I have known Zaid for 1-2 years as he participated in our global community. He also volunteers to help manage global circles of 10-20 people. He's direct and honest if he does not understand something or needs help. I hope to work with him more. I predict he will be financially successful and socially impact positively hundreds of people around the world in the next decade."
     },
-    
+     /* {
+      name: "Clarke Chaos",
+      image: "/images/clarke.png",
+      headline:"President at ZYZ Dynamics.",
+      description:
+        "Zaid is hardworking and very intelligent and straight forward"
+    },
+    */
     
   ]
 } as const;
