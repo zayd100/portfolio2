@@ -7,7 +7,7 @@ import { title } from "process";
 export const DATA = {
   name: "Zaid Shabbir",
   initials: "ZS",
-  url: "https://github.com/zayd100",
+  url: "https://portfolio2-opal-five-74.vercel.app/",   //this was causing the redirection issue. 
   location: "Karachi, Pakistan",
   locationLink: "https://www.google.com/maps/place/karachi",
   description:
