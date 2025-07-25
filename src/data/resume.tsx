@@ -17,7 +17,8 @@ export const DATA = {
 
   avatarUrl: "/hi.webp",
   skills: [
-    "React",
+    "Next.js",
+    "React.js",
     "Git",
     "Typescript",
     "Node.js",
@@ -28,6 +29,7 @@ export const DATA = {
     "RestAPI",
     "Express.js",
     "Research",
+    "Just-in-time Learning(JIT)",
   ],
 
   navbar: [
