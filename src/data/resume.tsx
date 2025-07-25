@@ -28,7 +28,7 @@ export const DATA = {
     "AWS S3",
     "RestAPI",
     "Express.js",
-    "Research",
+    "Technical Documentation",
     "Just-in-time Learning(JIT)",
   ],
 
