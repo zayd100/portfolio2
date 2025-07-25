@@ -318,7 +318,7 @@ export const DATA = {
       dates: "VisionQuest",
       location: "",
       description:
-        "Created an Obsidian-based knowledge system centralizes and connects research on 6DoF spatial audio environments, including binaural and ambisonic rendering techniques, psychoacoustic modeling, and therapeutic applications like sound frequency modulation, light therapy synchronization, and trance state induction, while maintaining rigorous technical analysis of positional audio parameters and their physiological effects.",
+        "Created an Obsidian-based knowledge system which centralizes and connects research on 6DoF spatial audio environments, including binaural and ambisonic rendering techniques, psychoacoustic modeling, and therapeutic applications like sound frequency modulation, light therapy synchronization, and trance state induction, while maintaining rigorous technical analysis of positional audio parameters and their physiological effects.",
       image:
         "/images/vq.png",
       mlh: "",
