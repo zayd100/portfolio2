@@ -11,9 +11,9 @@ export const DATA = {
   location: "Karachi, Pakistan",
   locationLink: "https://www.google.com/maps/place/karachi",
   description:
-    "A Full Stack Developer from Pakistan",
+    "Full Stack Engineer",
   summary:
-  "Hello! I'm a 19-year-old self-taught developer from Pakistan. I enjoy programming and exploring technology, currently doing freelancing while working on my own projects. Open to work, freelance opportunities, or collaboration.",
+  "I'm a 19-year-old full-stack developer from Pakistan with extensive experience working with US-based entrepreneurs and startups. As a self-taught programmer, I've built a strong foundation in modern web technologies while delivering high-quality solutions for Businesses around the world. Currently freelancing and developing my own projects, I'm passionate about turning innovative ideas into robust digital products. Always open to new opportunities, collaborations, and exciting challenges.",
 
   avatarUrl: "/hi.png",
   skills: [
