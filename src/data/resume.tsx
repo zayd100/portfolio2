@@ -24,7 +24,7 @@ export const DATA = {
     "Node.js",
     "MongoDB",
     "JavaScript",
-    "git",
+    "GitHub",
     "AWS S3",
     "RestAPI",
     "Express.js",
