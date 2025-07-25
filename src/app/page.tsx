@@ -78,49 +78,52 @@ export default function Page() {
       <main className="flex flex-col min-h-[100dvh] space-y-10">
         <PersonSchema />
         <section id="hero">
-          <div className="mx-auto w-full max-w-2xl space-y-8">
-            <div className="gap-2 flex justify-between">
-              <div className="flex-col flex flex-1 space-y-1.5">
-                <BlurFadeText
-                  delay={BLUR_FADE_DELAY}
-                  className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-                  yOffset={8}
-                  text={`Hi, I'm ${DATA.name.split(" ")[0]} 👨🏻‍💻`}
-                />
-                <BlurFadeText
-                  className="max-w-[600px] md:text-xl"
-                  delay={BLUR_FADE_DELAY}
-                  text={DATA.description}
-                />
-              </div>
-              <BlurFade delay={BLUR_FADE_DELAY}>
-                <div className="profile-wrapper">
-                  <Avatar className="size-28 relative z-10">
-                    <AvatarImage
-                      alt={DATA.name}
-                      src={DATA.avatarUrl}
-                      width={112}
-                      height={112}
-                      loading="eager"
-                    />
-                    <AvatarFallback>{DATA.initials}</AvatarFallback>
-                  </Avatar>
-                </div>
-              </BlurFade>
-            </div>
-          </div>
-        </section>
-        
-        <section id="about">
-          <BlurFade delay={BLUR_FADE_DELAY * 3}>
-            <h2 className="text-xl font-bold">About</h2>
-          </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 4}>
-            <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-              {DATA.summary}
-            </Markdown>
-          </BlurFade>
-        </section>
+  <div className="mx-auto w-full max-w-4xl space-y-8">
+    <div className="gap-8 flex justify-between items-center">
+      <div className="flex-col flex flex-1 space-y-2">
+        <BlurFadeText
+          delay={BLUR_FADE_DELAY}
+          className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
+          yOffset={8}
+          text={`Hi, I'm ${DATA.name.split(" ")[0]} 👨🏻‍💻`}
+        />
+        <BlurFadeText
+          className="max-w-[700px] md:text-xl text-muted-foreground"
+          delay={BLUR_FADE_DELAY}
+          text={DATA.description}
+        />
+      </div>
+      <BlurFade delay={BLUR_FADE_DELAY}>
+        <div className="profile-wrapper flex-shrink-0">
+          <Avatar className="size-40 relative z-10 ring-4 ring-background shadow-2xl">
+            <AvatarImage
+              alt={DATA.name}
+              src={DATA.avatarUrl}
+              width={160}
+              height={160}
+              loading="eager"
+              className="object-cover"
+            />
+            <AvatarFallback className="text-2xl font-semibold">{DATA.initials}</AvatarFallback>
+          </Avatar>
+        </div>
+      </BlurFade>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div className="mx-auto w-full max-w-4xl">
+    <BlurFade delay={BLUR_FADE_DELAY * 3}>
+      <h2 className="text-2xl font-bold mb-4">About</h2>
+    </BlurFade>
+    <BlurFade delay={BLUR_FADE_DELAY * 4}>
+      <Markdown className="prose max-w-full text-pretty font-sans text-base text-muted-foreground dark:prose-invert">
+        {DATA.summary}
+      </Markdown>
+    </BlurFade>
+  </div>
+</section>
 
         <section id="connect">
           <BlurFade delay={BLUR_FADE_DELAY * 4.5}>

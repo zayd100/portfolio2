@@ -15,7 +15,7 @@ export const DATA = {
   summary:
   "Hello! I'm a 19-year-old self-taught developer from Pakistan. I enjoy programming and exploring technology, currently doing freelancing while working on my own projects. Open to work, freelance opportunities, or collaboration.",
 
-  avatarUrl: "/hi.webp",
+  avatarUrl: "/hi.png",
   skills: [
     "Next.js",
     "React.js",
