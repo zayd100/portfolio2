@@ -51,6 +51,7 @@ const ALIASES = {
   p: 'projects',
   c: 'contact',
   th: 'theme',
+  w:'writing',
 };
 
 const COMMANDS = {
@@ -59,7 +60,8 @@ const COMMANDS = {
     'about    (a)     - Display information about me\n' +
     'skills   (s)     - List my technical skills\n' +
     'projects (p, ls) - List my projects\n' +
-    'testimonials(t)-list testimonials recieved\n'+
+    'writing (w) - Show all Research Work and Technical Writing\n'+
+    'testimonials (t) -list testimonials recieved\n'+
     'contact   (c)    - Display contact information\n' +
     'social          - Show social media links\n' +
     'version  (v)    - Show CLI version\n' +
@@ -79,6 +81,19 @@ testimonials: () => {
       const description = testimonial.description || '';
       
       return `${index + 1}. "${description}"\n   - ${name}${headline ? `, ${headline}` : ''}`;
+    }).join('\n\n')}`;
+  },
+   writing: () => {
+    if (!DATA.hackathons || !Array.isArray(DATA.hackathons)) {
+      return 'No technical writing or research work available yet.';
+    }
+    
+    return `Technical Writing & Research:\n\n${DATA.hackathons.map((work, index) => {
+      const title = work.title || 'Untitled';
+      const dates = work.dates || '';
+      const description = work.description || '';
+      
+      return `${index + 1}. ${title}${dates ? ` (${dates})` : ''}\n   ${description}`;
     }).join('\n\n')}`;
   },
   projects: () => DATA.projects.map(project => 
