@@ -234,40 +234,6 @@ export default function Page() {
           </div>
         </section>
       
-
-
-
-        <section id="contact">
-          <BlurFade delay={BLUR_FADE_DELAY * 16}>
-            <div className="space-y-4">
-              <h2 className="text-xl font-bold">Contact</h2>
-              
-              <p className="text-muted-foreground">
-                Always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out!
-              </p>
-              
-              <div className="mt-6 space-y-4">
-                <a
-                  href="mailto:zaidshabbir666@gmail.com"
-                  className="flex items-center gap-2 underline underline-offset-4 hover:opacity-70 transition-opacity"
-                >
-                  <Icons.email className="size-4" />
-                  zaidshabbir666@gmail.com
-                </a>
-
-                <a
-                  href={DATA.contact.social.X.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-foreground text-background hover:opacity-90 transition-opacity"
-                >
-                  <DATA.contact.social.X.icon className="size-4" />
-                  Connect on X
-                </a>
-              </div>
-            </div>
-          </BlurFade>
-          </section>
   <section id="testimonials">
           <div className="space-y-12 w-full py-12">
             <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -308,6 +274,43 @@ export default function Page() {
             </BlurFade>
           </div>
         </section>
+            <section id="contact">
+          <BlurFade delay={BLUR_FADE_DELAY * 16}>
+            <div className="space-y-4">
+              <h2 className="text-xl font-bold">Contact</h2>
+              
+              <p className="text-muted-foreground">
+                Always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out!
+              </p>
+              
+              <div className="mt-6 space-y-4">
+                <a
+                  href="mailto:zaidshabbir666@gmail.com"
+                  className="flex items-center gap-2 underline underline-offset-4 hover:opacity-70 transition-opacity"
+                >
+                  <Icons.email className="size-4" />
+                  zaidshabbir666@gmail.com
+                </a>
+
+                <a
+                  href={DATA.contact.social.X.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-foreground text-background hover:opacity-90 transition-opacity"
+                >
+                  <DATA.contact.social.X.icon className="size-4" />
+                  Connect on X
+                </a>
+              </div>
+            </div>
+          </BlurFade>
+          </section>
+          <br/>
+             <br/>
+                <br/>
+                   <br/>
+                      <br/>
+
 <section id="donate">
   <BlurFade delay={BLUR_FADE_DELAY * 17}>
     <div className="space-y-4">
