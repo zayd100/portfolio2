@@ -108,7 +108,7 @@ function formatCommandLine(line: string, currentTheme: string | undefined) {
   if (line.startsWith('$')) {
     return (
       <>
-        <span className={currentTheme === 'dark' ? 'text-fuchsia-500' : 'text-fuchsia-600'}>dev@prasen:~</span>
+        <span className={currentTheme === 'dark' ? 'text-fuchsia-500' : 'text-fuchsia-600'}>dev@zaid:~</span>
         <span className={currentTheme === 'dark' ? 'text-green-400' : 'text-green-600'}>$</span>
         {' '}{line.slice(1)}
       </>
