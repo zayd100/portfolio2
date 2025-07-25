@@ -45,11 +45,12 @@ const ALIASES = {
   v: 'version',
   g: 'gui',
   a: 'about',
+  t: 'testimonials',
   s: 'skills',
   e: 'exp',
   p: 'projects',
   c: 'contact',
-  t: 'theme',
+  th: 'theme',
 };
 
 const COMMANDS = {
@@ -58,7 +59,7 @@ const COMMANDS = {
     'about    (a)     - Display information about me\n' +
     'skills   (s)     - List my technical skills\n' +
     'projects (p, ls) - List my projects\n' +
-  
+    'testimonials(t)-list testimonials recieved\n'+
     'contact   (c)    - Display contact information\n' +
     'social          - Show social media links\n' +
     'version  (v)    - Show CLI version\n' +
@@ -67,6 +68,19 @@ const COMMANDS = {
     'Tip: Use Tab for command completion and ↑↓ for command history',
   about: () => `${DATA.name}\n${DATA.description}\n\n${DATA.summary}`,
   skills: () => `Skills:\n${DATA.skills.join(', ')}`,
+testimonials: () => {
+    if (!DATA.testimonials || !Array.isArray(DATA.testimonials)) {
+      return 'No testimonials available yet. Check back soon!';
+    }
+    
+    return `Testimonials:\n\n${DATA.testimonials.map((testimonial, index) => {
+      const name = testimonial.name || 'Anonymous';
+      const headline = testimonial.headline || '';
+      const description = testimonial.description || '';
+      
+      return `${index + 1}. "${description}"\n   - ${name}${headline ? `, ${headline}` : ''}`;
+    }).join('\n\n')}`;
+  },
   projects: () => DATA.projects.map(project => 
     `\n${project.title}\n${project.description}\nTech: ${project.technologies.join(', ')}\n`
   ).join('\n'),
