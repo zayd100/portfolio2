@@ -15,7 +15,7 @@ export function PersonSchema() {
           url: DATA.url,
           sameAs: [
             DATA.contact.social.GitHub.url,
-            DATA.contact.social.LinkedIn.url,
+        
             DATA.contact.social.X.url,
             DATA.contact.social.wikipedia.url
           ],

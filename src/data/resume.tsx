@@ -45,13 +45,7 @@ export const DATA = {
 
         navbar: true,
       },
-      LinkedIn: {
-        name: "LinkedIn",
-        url: "www.linkedin.com/in/zaid-shabbir-953b4b184",
-        icon: Icons.linkedin,
-
-        navbar: true,
-      },
+    
       X: {
         name: "X",
         url: "https://x.com/sharpzayd",
