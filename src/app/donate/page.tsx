@@ -5,7 +5,7 @@ import { Copy, Check, X, Heart, Gift } from 'lucide-react';
 function DonatePopup() {
   const [isOpen, setIsOpen] = useState(false);
   const [copied, setCopied] = useState(false);
-  
+  // I included Mine you can change for yours.
   const ethAddress = "0x120648d29d4447FbA14D5360de2ba3095fF7B72c";
   
   const copyToClipboard = async () => {
@@ -26,7 +26,7 @@ function DonatePopup() {
         className="fixed bottom-6 right-6 bg-gradient-to-r from-pink-500 to-red-500 text-white rounded-full p-4 shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2 z-40"
       >
         <Gift className="w-5 h-5" />
-        <span className="hidden sm:inline">Support Me</span>
+        <span className="hidden sm:inline">Support Me Via Ethereum</span>
       </button>
 
       {/* Popup Overlay */}
