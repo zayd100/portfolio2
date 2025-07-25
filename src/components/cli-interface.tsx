@@ -74,7 +74,7 @@ const COMMANDS = {
   social: () => Object.entries(DATA.contact.social)
     .map(([platform, data]) => `${platform}: ${data.url}`)
     .join('\n'),
-  version: () => 'prasen.dev CLI v1.0.0',
+  version: () => 'zaid.dev CLI v1.0.0',
   clear: 'CLEAR',
   gui: 'GUI',
 };
