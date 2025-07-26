@@ -337,18 +337,18 @@ Technical Writer & Researcher`,
     {
       name: "Steve Kantor",
       image: "/images/steve.png",
-      headline:"President at Lifebushido, Member of GoBundance and PEF.",
+      headline:"President at Lifebushido, Author of 'Billon Dollar Agent', Member of GoBundance and PEF.",
       description:
         "I recommend Zaid for his clear English verbal and written communication, intellect, and perseverance. I have known Zaid for 1-2 years as he participated in our global community. He also volunteers to help manage global circles of 10-20 people. He's direct and honest if he does not understand something or needs help. I hope to work with him more. I predict he will be financially successful and socially impact positively hundreds of people around the world in the next decade."
     },
-     /* {
+      {
       name: "Clarke Chaos",
       image: "/images/clarke.png",
       headline:"President at ZYZ Dynamics.",
       description:
-        "Zaid is hardworking and very intelligent and straight forward"
+        "Working with Zaid has been an absolute pleasure, and I can recommend him without reservation. I originally came to him with a simple project and a modest salary. He blew me away with his professionalism, his attention to detail, and the overall quality of work. Since that original hiring I have worked with Zaid on numerous projects ranging from research and copy, to coding and debugging. He is always my first choice when looking for trustworthy help. He easily conceptualizes projects and always provides his feedback taking projects to another level though creativity and enthusiasm for work. What I would say to anyone considering taking on this amazing kid as a work associate is that he exemplifies two qualities so hard to find and hard to vet for, he brings with him infectious enthusiasm, and genuine honesty."
     },
-    */
+    
     
   ]
 } as const;
