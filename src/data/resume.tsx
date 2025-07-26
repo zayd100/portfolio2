@@ -10,8 +10,8 @@ export const DATA = {
   url: "https://portfolio2-opal-five-74.vercel.app",   //this was causing the redirection issue. 
   location: "Karachi, Pakistan",
   locationLink: "https://www.google.com/maps/place/karachi",
-description: `Full Stack Engineer |
-Blockchain Product Development |
+description: `Full Stack Engineer 
+Blockchain Product Development 
 Technical Writer & Researcher`,
   summary:
   "I'm a 19-year-old full-stack developer from Pakistan with extensive experience working with US-based entrepreneurs and startups. As a self-taught programmer, I've built a strong foundation in modern web technologies while delivering high-quality solutions for Businesses around the world. Currently freelancing and developing my own projects, I'm passionate about turning innovative ideas into robust digital products. Always open to new opportunities, collaborations, and exciting challenges.",
