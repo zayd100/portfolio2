@@ -87,11 +87,11 @@ export default function Page() {
           yOffset={8}
           text={`Mian ${DATA.name.split(" ")[0]} Chaudhary `}
         />
-        <BlurFadeText
-          className="max-w-[700px] md:text-xl text-muted-foreground"
-          delay={BLUR_FADE_DELAY}
-          text={DATA.description}
-        />
+          <BlurFadeText
+            className="max-w-[700px] md:text-xl text-muted-foreground whitespace-pre-line"
+            delay={BLUR_FADE_DELAY}
+            text={DATA.description}
+          />
       </div>
       <BlurFade delay={BLUR_FADE_DELAY}>
         <div className="profile-wrapper flex-shrink-0">
