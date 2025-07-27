@@ -216,29 +216,7 @@ Technical Writer & Researcher`,
       image: "/images/zyzd.png",
       video: "",
     },
-       {
-      title: "Shandar Safar",
-      href: "",
-      active: false,
-      description:
-        "A responsive web application showcasing Pakistan's beautiful destinations with an interactive map and image gallery.",
-      technologies: [
-        "JavaScript",
-        "HTML",
-        "CSS",
-        
-      ],
-      links: [
-   
-        {
-          type: "Source",
-          href: "https://zayd100.github.io/pakistan-tourism-guide/#home",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/images/tour.png",
-      video: "",
-    },
+      
     {
       title: "JetWiki",
       href: "github.com/zayd100/jetwiki",
@@ -331,6 +309,29 @@ Technical Writer & Researcher`,
         "/images/wiki.png",
       mlh: "",
       links: [],
+    },
+     {
+      title: "Shandar Safar",
+      href: "",
+      active: false,
+      description:
+        "A responsive web application showcasing Pakistan's beautiful destinations with an interactive map and image gallery.",
+      technologies: [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        
+      ],
+      links: [
+   
+        {
+          type: "Source",
+          href: "https://zayd100.github.io/pakistan-tourism-guide/#home",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/images/tour.png",
+      video: "",
     },
   ],
   testimonials: [
