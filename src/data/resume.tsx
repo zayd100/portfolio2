@@ -14,7 +14,7 @@ description: `Full Stack Engineer
 Blockchain Product Development 
 Technical Writer & Researcher`,
   summary:
-  "I'm a 19-year-old full-stack developer from Pakistan with extensive experience working with US-based entrepreneurs and startups. As a self-taught programmer, I've built a strong foundation in modern web technologies while delivering high-quality solutions for Businesses around the world. Currently freelancing and developing my own projects, I'm passionate about turning innovative ideas into robust digital products. Always open to new opportunities, collaborations, and exciting challenges.",
+  "I'm a 19-year-old full-stack developer from Pakistan with extensive experience working with US-based entrepreneurs and startups. As a self-taught programmer, I've built a strong foundation in modern web technologies while delivering high-quality solutions for Businesses around the world. My work extends beyond development to include comprehensive research in emerging technologies—particularly blockchain applications, spatial audio systems, and decentralized identity solutions using structured knowledge management systems. Currently freelancing and developing my own projects, I'm passionate about turning innovative ideas into robust digital products through both technical implementation and thorough research. Always open to new opportunities, collaborations, and exciting challenges.",
 
   avatarUrl: "/hi.png",
   skills: [
@@ -272,6 +272,29 @@ Technical Writer & Researcher`,
       video:
         "",
     },
+       {
+      title: "Shandar Safar",
+      href: "",
+      active: false,
+      description:
+        "A responsive web application showcasing Pakistan's beautiful destinations with an interactive map and image gallery.",
+      technologies: [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        
+      ],
+      links: [
+   
+        {
+          type: "Source",
+          href: "https://zayd100.github.io/pakistan-tourism-guide/#home",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/images/tour.png",
+      video: "",
+    },
   
 
   ],
@@ -282,7 +305,7 @@ Technical Writer & Researcher`,
       dates: "Next Round",
       location: "",
       description:
-        "Research focuses on decentralized identity solutions using QR codes for secure asset verification and supply chain transparency. The system architecture incorporates smart contracts for tamper-proof records and explores tokenization methods to authenticate physical goods. Potential use cases include anti-counterfeiting protocols and digital-physical asset linkage in logistics networks.",
+        "Conducted comprehensive blockchain research for Next Round, an innovative Web3 startup that transforms physical drink coasters into gateways for digital art and social connection through QR code integration and community-driven NFT ecosystems. Through an Obsidian-based research library, explored decentralized identity solutions and developed practical blockchain applications featuring automatic wallet creation, monthly coin resets, and mnemonic-based password systems that prioritize social sharing over speculation.",
       image:
         "/images/nxt.png",
       mlh: "",
@@ -310,29 +333,7 @@ Technical Writer & Researcher`,
       mlh: "",
       links: [],
     },
-     {
-      title: "Shandar Safar",
-      href: "",
-      active: false,
-      description:
-        "A responsive web application showcasing Pakistan's beautiful destinations with an interactive map and image gallery.",
-      technologies: [
-        "JavaScript",
-        "HTML",
-        "CSS",
-        
-      ],
-      links: [
-   
-        {
-          type: "Source",
-          href: "https://zayd100.github.io/pakistan-tourism-guide/#home",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/images/tour.png",
-      video: "",
-    },
+  
   ],
   testimonials: [
     {
