@@ -11,7 +11,8 @@ export const DATA = {
   location: "Karachi, Pakistan",
   locationLink: "https://www.google.com/maps/place/karachi",
 description: `Full Stack Engineer 
-Technical Writer & Researcher`,
+Blockchain Product Development
+Digital Innovation Consultant`,
   summary:
   "I'm a 19-year-old full-stack developer from Pakistan with extensive experience working with US-based entrepreneurs and startups. As a self-taught programmer, I've built a strong foundation in modern web technologies while delivering high-quality solutions for Businesses around the world. My work extends beyond development to include comprehensive research in emerging technologies—particularly blockchain applications, spatial audio systems, and decentralized identity solutions using structured knowledge management systems. Currently freelancing and developing my own projects, I'm passionate about turning innovative ideas into robust digital products through both technical implementation and thorough research. Always open to new opportunities, collaborations, and exciting challenges.",
 
