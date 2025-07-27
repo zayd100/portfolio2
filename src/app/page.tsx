@@ -295,15 +295,7 @@ export default function Page() {
                   zaidshabbir666@gmail.com
                 </a>
 
-                <a
-                  href={DATA.contact.social.X.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-foreground text-background hover:opacity-90 transition-opacity"
-                >
-                  <DATA.contact.social.X.icon className="size-4" />
-                  Connect on X
-                </a>
+                
               </div>
             </div>
           </BlurFade>
