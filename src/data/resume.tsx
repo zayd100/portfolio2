@@ -35,9 +35,9 @@ Digital Innovation Consultant`,
 
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    {href:"#donate", icon: Bitcoin, label : "Donate"},
     { href: "/projects", icon: FolderIcon, label: "Projects" },
-    {href: "/testimonials", icon: Star, label: "Testimonials"}
+    {href: "/testimonials", icon: Star, label: "Testimonials"},
+    {href:"#donate", icon: Bitcoin, label : "Donate"},
   ],
   contact: {
     email: "zaidshabbir666@gmail.com",
