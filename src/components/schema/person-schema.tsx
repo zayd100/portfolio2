@@ -8,8 +8,8 @@ export function PersonSchema() {
         __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Person",
-          name: "Prasenjit Nayak",
-          alternateName: ["Prasen", "Star Knight"],
+          name: "Zaid Shabbir",
+          alternateName: ["Zaid", "zayd100"],
           description: DATA.description,
           image: `${DATA.url}/me.png`,
           url: DATA.url,
@@ -26,7 +26,7 @@ export function PersonSchema() {
           },
           alumniOf: {
             "@type": "CollegeOrUniversity",
-            name: "Trident Academy Of Technology"
+            name: ""
           },
           address: {
             "@type": "PostalAddress",

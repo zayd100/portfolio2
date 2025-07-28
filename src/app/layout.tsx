@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     title: "Zaid Shabbir | Full Stack Developer",
     description: "Full Stack Developer specializing in React, Next.js, TypeScript and Node.js. Check out my portfolio, projects and blog posts.",
     url: DATA.url,
-    siteName: "Prasenjit Nayak - Portfolio",
+    siteName: "Zaid Shabbir - Portfolio",
     locale: "en_US",
     type: "website",
     images: [
@@ -100,7 +100,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "Prasenjit Nayak",
+    title: "Zaid Shabbir",
   },
   other: {
     "msapplication-TileColor": "#ffffff",

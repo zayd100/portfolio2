@@ -11,8 +11,8 @@ export const DATA = {
   location: "Karachi, Pakistan",
   locationLink: "https://www.google.com/maps/place/karachi",
 description: `Full Stack Engineer 
-Technical Writer & Researcher
-Digital Innovation Consultant`,
+Digital Innovation Consultant
+Technical Writer & Researcher`,
   summary:
   "I'm a 19-year-old full-stack developer from Pakistan with extensive experience working with US-based entrepreneurs and startups. As a self-taught programmer, I've built a strong foundation in modern web technologies while delivering high-quality solutions for Businesses around the world. My work extends beyond development to include comprehensive research in emerging technologies—particularly blockchain applications, spatial audio systems, and decentralized identity solutions using structured knowledge management systems. Currently freelancing and developing my own projects, I'm passionate about turning innovative ideas into robust digital products through both technical implementation and thorough research. Always open to new opportunities, collaborations, and exciting challenges.",
 
@@ -30,7 +30,7 @@ Digital Innovation Consultant`,
     "RestAPI",
     "Express.js",
     "Technical Documentation",
-    "Just-in-time Learning(JIT)",
+    "Just-in-time(JIT) Learning",
   ],
 
   navbar: [
@@ -351,6 +351,7 @@ Digital Innovation Consultant`,
       description:
         "Working with Zaid has been an absolute pleasure, and I can recommend him without reservation. I originally came to him with a simple project and a modest salary. He blew me away with his professionalism, his attention to detail, and the overall quality of work. Since that original hiring I have worked with Zaid on numerous projects ranging from research and copy, to coding and debugging. He is always my first choice when looking for trustworthy help. He easily conceptualizes projects and always provides his feedback taking projects to another level through creativity and enthusiasm for work. What I would say to anyone considering taking on this amazing kid as a work associate is that he exemplifies two qualities so hard to find and hard to vet for, he brings with him infectious enthusiasm, and genuine honesty."
     },
+     
     
     
   ]
