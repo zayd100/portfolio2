@@ -1,7 +1,7 @@
 import { Icons } from "@/components/icons";
 import { Description } from "@radix-ui/react-dialog";
 import { url } from "inspector";
-import { HomeIcon, NotebookIcon, ThumbsDown, VideoIcon, FolderIcon, Coins } from "lucide-react";
+import { Bitcoin, DollarSign, Coins, Wallet, CreditCard, Banknote, TrendingUp, TrendingDown, BarChart3, PieChart, ArrowUpDown, Repeat, Shield, Link, Zap, Star, StarHalf, Sparkles, Sparkle, Award, Medal, Crown, Gem, Heart, Bookmark, Trophy, HomeIcon, NotebookIcon, ThumbsDown, VideoIcon, FolderIcon } from "lucide-react";
 import { title } from "process";
 
 export const DATA = {
@@ -35,8 +35,9 @@ Digital Innovation Consultant`,
 
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    {href:"#donate", icon: Coins, label : "Donate"},
+    {href:"#donate", icon: Bitcoin, label : "Donate"},
     { href: "/projects", icon: FolderIcon, label: "Projects" },
+    {href: "/testimonials", icon: Star, label: "Testimonials"}
   ],
   contact: {
     email: "zaidshabbir666@gmail.com",
