@@ -22,19 +22,19 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
   title: {
-    default: "Prasenjit Nayak | Full Stack Developer",
-    template: `%s | Prasenjit Nayak`,
+    default: "Zaid Shabbir | Full Stack Developer",
+    template: `%s | Zaid Shabbir`,
   },
-  description: "Prasenjit Nayak is a Full Stack Developer from India, with expertise in React, Next.js, TypeScript and Node.js. I create modern web applications and have a passion for clean, efficient code. View my portfolio to see my latest projects and technical blog posts.",
-  keywords: ["Prasenjit Nayak", "Full Stack Developer", "React Developer", "Next.js Developer", "TypeScript Developer", "Node.js Developer", "Web Developer India", "Software Engineer"],
-  authors: [{ name: "Prasenjit Nayak" }],
-  creator: "Prasenjit Nayak",
-  publisher: "Prasenjit Nayak",
+  description: "Zaid Shabbir is a Full Stack Developer from Pakistan, with expertise in React, Next.js, TypeScript and Node.js. I create modern web applications and have a passion for clean, efficient code. View my portfolio to see my latest projects and technical Research/writing.",
+  keywords: ["Zaid Shabbir", "Full Stack Developer", "React Developer", "Next.js Developer", "TypeScript Developer", "Node.js Developer", "Web Developer India", "Software Engineer"],
+  authors: [{ name: "Zaid Shabbir" }],
+  creator: "Zaid Shabbir",
+  publisher: "Zaid Shabbir",
   alternates: {
     canonical: DATA.url,
   },
   openGraph: {
-    title: "Prasenjit Nayak | Full Stack Developer",
+    title: "Zaid Shabbir | Full Stack Developer",
     description: "Full Stack Developer specializing in React, Next.js, TypeScript and Node.js. Check out my portfolio, projects and blog posts.",
     url: DATA.url,
     siteName: "Prasenjit Nayak - Portfolio",
@@ -45,13 +45,13 @@ export const metadata: Metadata = {
         url: `${DATA.url}/me.png`,
         width: 1200,
         height: 630,
-        alt: "Prasenjit Nayak - Full Stack Developer"
+        alt: "Zaid Shabbir - Full Stack Developer"
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Prasenjit Nayak | Full Stack Developer',
+    title: 'Zaid Shabbir | Full Stack Developer',
     description: 'Full Stack Developer specializing in React, Next.js, TypeScript and Node.js',
     images: [`${DATA.url}/me.png`],
   },

@@ -237,7 +237,7 @@ export default function Page() {
           </div>
         </section>
       
-  <section id="testimonials">
+<section id="testimonials">
           <div className="space-y-12 w-full py-12">
             <BlurFade delay={BLUR_FADE_DELAY * 11}>
               <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -256,7 +256,7 @@ export default function Page() {
             </BlurFade>
             <BlurFade delay={BLUR_FADE_DELAY * 12}>
               <div className="space-y-6">
-                {DATA.testimonials.map((testimonial, id) => (
+                {DATA.testimonials.slice(0, 3).map((testimonial, id) => (
                   <BlurFade
                     key={testimonial.name}
                     delay={BLUR_FADE_DELAY * 13 + id * 0.05}
@@ -266,7 +266,6 @@ export default function Page() {
                         title={testimonial.name}
                         headline={testimonial.headline}
                         image={testimonial.image}
-                        
                         description={testimonial.description}
                         href="#"
                       />
@@ -274,6 +273,17 @@ export default function Page() {
                   </BlurFade>
                 ))}
               </div>
+              <BlurFade delay={BLUR_FADE_DELAY * 14}>
+                <div className="flex justify-center mt-8">
+                  <Link href="/testimonials">
+                    <ShinyButton
+                      className="w-full sm:w-auto group transition-all duration-300 hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] font-semibold"
+                    >
+                      View All Testimonials →
+                    </ShinyButton>
+                  </Link>
+                </div>
+              </BlurFade>
             </BlurFade>
           </div>
         </section>
