@@ -12,9 +12,9 @@ Performance Focused: Optimized for Core Web Vitals
 ✨ My Enhancements & Modifications
 
 📝 Testimonials System: Dedicated testimonials page with client reviews and feedback
-[Testimonial page](./testimonial.png)
+![Testimonial page](./testimonial.png)
 💖 Donations Integration: Custom donation page with payment integration
-[Donate Functioniality](./donate.png)
+![Donate Functioniality](./donate.png)
 🎨 Redesigned Layout: Completely restructured UI to match personal branding
 🧹 Streamlined Content: Removed blog support, video gallery, and gadgets shop for focused experience
 🔧 Custom Data Structure: Modified src/data/ files to support testimonials and donation features
