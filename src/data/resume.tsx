@@ -200,7 +200,7 @@ Technical Writer & Researcher`,
       price:"",
   },
   {
-    title: "Junior Tech Consulting",
+    title: "Tech Consulting",
     description: "Affordable tech guidance for startups.", // or "Tech strategy made simple."
     image: "/images/consult.png",
       price:"",
