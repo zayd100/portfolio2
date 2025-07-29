@@ -21,7 +21,7 @@ export default function ServicesPage() {
   return (
     <section>
       <BlurFade delay={BLUR_FADE_DELAY}>
-        <h1 className="font-medium text-2xl mb-8 tracking-tighter">Services Provided</h1>
+        <h1 className="font-medium text-2xl mb-8 tracking-tighter">Services I provide</h1>
       </BlurFade>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {DATA.services.map((service, id) => (
