@@ -38,7 +38,7 @@ Deployment: Vercel
 │   │   └── donate/        # donation button.
 │   ├── components/  # React components (enhanced)
 │   ├── data/        # Modified data files for testimonials
-│   └── lib/         # Utility functions
+│   └── lib/         # Utility functions.
 ```
 🎨 Key Customizations
 
