@@ -1,7 +1,7 @@
 import { Icons } from "@/components/icons";
 import { Description } from "@radix-ui/react-dialog";
 import { url } from "inspector";
-import { Bitcoin, DollarSign, Coins, Wallet, CreditCard, Banknote, TrendingUp, TrendingDown, BarChart3, PieChart, ArrowUpDown, Repeat, Shield, Link, Zap, Star, StarHalf, Sparkles, Sparkle, Award, Medal, Crown, Gem, Heart, Bookmark, Trophy, HomeIcon, NotebookIcon, ThumbsDown, VideoIcon, FolderIcon } from "lucide-react";
+import { Bitcoin, Handshake, DollarSign, Coins, Wallet, CreditCard, Banknote, TrendingUp, TrendingDown, BarChart3, PieChart, ArrowUpDown, Repeat, Shield, Link, Zap, Star, StarHalf, Sparkles, Sparkle, Award, Medal, Crown, Gem, Heart, Bookmark, Trophy, HomeIcon, NotebookIcon, ThumbsDown, VideoIcon, FolderIcon } from "lucide-react";
 import { title } from "process";
 
 export const DATA = {
@@ -36,6 +36,7 @@ Technical Writer & Researcher`,
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/projects", icon: FolderIcon, label: "Projects" },
+    {href: "/services", icon: Handshake, label: "Services"},
     {href: "/testimonials", icon: Star, label: "Testimonials"},
     {href:"#donate", icon: Bitcoin, label : "Donate"},
   ],
@@ -166,6 +167,52 @@ Technical Writer & Researcher`,
       end: "",
     },
    
+  ],
+  services: [
+      {
+        title: "Custom Web Applications",
+        price:"",
+        description: "Let's discuss how your business can be improved by AI automation and using AI for your business Efficiency!",
+        image:"/images/zyzd.png"
+      },
+         {
+        title: " No-Code/Low-Code Solutions",
+        price:"",
+         description: "Let's discuss how your business can be improved by AI automation and using AI for your business Efficiency!",
+        image:"/images/zyzd.png"
+      },
+         {
+        title: "AI Integration & Automation",
+        price:"",
+        description:"Let's discuss how your business can be improved by AI automation and using AI for your business Efficiency!",
+        image:"/images/zyzd.png"
+      },
+         {
+        title: "Data & Analytics Platforms",
+        price:"",
+        description: "Let's discuss how your business can be improved by AI automation and using AI for your business Efficiency!",
+        image:"/images/zyzd.png"
+      },
+         {
+          
+        title: "Technical Documentaion",
+        price:"",
+        description: "Let's discuss how your business can be improved by AI automation and using AI for your business Efficiency!",
+        image:"/images/zyzd.png"
+      },
+         {
+          
+        title: "Tech Consultancy For Non-Technical Individuals",
+        price:"",
+        description: "Let's discuss how your business can be improved by AI automation and using AI for your business Efficiency!",
+        image:"/images/zyzd.png"
+      },
+      
+      
+      
+      
+
+
   ],
   projects: [
     {

@@ -22,6 +22,9 @@ import { BorderBeam } from "@/components/magicui/border-beam";
 import { GhibliSkyBackground } from "@/components/ghibli-elements";
 import DonatePopup from './donate/page';
 import { TestiCard } from '@/components/testi-card';
+import ServicesPage from './services/page';
+import { ServicesSkeleton } from '@/components/skeletons/services-skeleton';
+import { ServicesCard } from '@/components/services-card';
 import { TestiSkeleton } from '@/components/skeletons/testi-skeleton';
 const BLUR_FADE_DELAY = 0.04;
 export const metadata: Metadata = {
@@ -85,7 +88,7 @@ export default function Page() {
           delay={BLUR_FADE_DELAY}
           className="text-2xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
           yOffset={8}
-          text={`Mian ${DATA.name.split(" ")[0]} Chaudhary `}
+          text={`${DATA.name.split(" ")[0]} Chaudhary `}
         />
           <BlurFadeText
             className="max-w-[700px] md:text-xl text-muted-foreground whitespace-pre-line"
@@ -195,6 +198,83 @@ export default function Page() {
             </BlurFade>
           </div>
         </section>
+<section id="services" className="py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+  {/* Background decoration */}
+  <div className="absolute inset-0 bg-gradient-to-br from-blue-50/30 via-white to-purple-50/30 dark:from-blue-950/10 dark:via-gray-900 dark:to-purple-950/10" />
+  <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl" />
+  <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-purple-400/10 rounded-full blur-3xl" />
+  
+  <div className="max-w-6xl mx-auto relative">
+    <div className="flex min-h-0 flex-col gap-y-12">
+      <BlurFade delay={BLUR_FADE_DELAY * 9}>
+        <div className="text-center space-y-6">
+         
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
+            <span className="bg-gradient-to-r from-gray-900 via-blue-800 to-purple-800 dark:from-white dark:via-blue-200 dark:to-purple-200 bg-clip-text text-transparent">
+              Services I Offer
+            </span>
+          </h2>
+          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
+            From AI automation to full-stack development—scalable solutions that drive real results for forward-thinking entrepreneurs.
+          </p>
+        </div>
+      </BlurFade>
+      
+      <BlurFade delay={BLUR_FADE_DELAY * 10}>
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-2">
+          {DATA.services.slice(0, 3).map((service, index) => (
+            <div 
+              key={service.title} 
+              className="group relative"
+            >
+              {/* Glowing background */}
+              <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 via-purple-500 to-blue-500 rounded-3xl blur opacity-20 group-hover:opacity-40 transition duration-700 group-hover:duration-300 animate-gradient-x" />
+              
+              {/* Card container */}
+              <div className="relative bg-white/90 dark:bg-gray-900/90 backdrop-blur-xl rounded-3xl border border-gray-200/50 dark:border-gray-800/50 overflow-hidden transition-all duration-500 group-hover:scale-[1.02] group-hover:shadow-2xl group-hover:shadow-blue-500/10">
+                {/* Gradient overlay */}
+                <div className="absolute inset-0 bg-gradient-to-br from-blue-50/50 via-transparent to-purple-50/50 dark:from-blue-950/20 dark:via-transparent dark:to-purple-950/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                
+                {/* Content */}
+                <div className="relative z-10 p-8">
+                  <ServicesCard {...service} />
+                </div>
+                
+                {/* Bottom shine effect */}
+                <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-blue-400/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              </div>
+            </div>
+          ))}
+        </div>
+        
+        <div className="flex justify-center mt-16">
+          <Link
+            href="/services"
+            className="group relative inline-flex items-center justify-center"
+          >
+            {/* Glowing background */}
+            <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 rounded-2xl blur-lg opacity-70 group-hover:opacity-100 transition duration-700 group-hover:duration-300 animate-pulse" />
+            
+            {/* Button */}
+            <div className="relative flex items-center gap-3 px-10 py-4 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl font-semibold text-gray-900 dark:text-white transition-all duration-300 group-hover:scale-105 group-hover:bg-gray-50 dark:group-hover:bg-gray-800 shadow-lg group-hover:shadow-xl">
+              <span>Explore All Services</span>
+              <div className="flex items-center justify-center w-6 h-6 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full transition-transform duration-300 group-hover:translate-x-1">
+                <svg 
+                  className="w-3 h-3 text-white" 
+                  fill="none" 
+                  viewBox="0 0 24 24" 
+                  stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </div>
+            </div>
+          </Link>
+        </div>
+      </BlurFade>
+    </div>
+  </div>
+</section>
 
        
 
