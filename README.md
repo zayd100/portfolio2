@@ -15,6 +15,8 @@ Performance Focused: Optimized for Core Web Vitals
 ![Testimonial page](./testimonial.png)
 💖 Donations Integration: Custom donation page with payment integration
 ![Donate Functioniality](./donate.png)
+Services Offered: With a separate page, you can add pricing too!
+![Services Offered](./services.png)
 🎨 Redesigned Layout: Completely restructured UI to match personal branding
 🧹 Streamlined Content: Removed blog support, video gallery, and gadgets shop for focused experience
 🔧 Custom Data Structure: Modified src/data/ files to support testimonials and donation features
