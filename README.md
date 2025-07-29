@@ -12,7 +12,9 @@ Performance Focused: Optimized for Core Web Vitals
 ✨ My Enhancements & Modifications
 
 📝 Testimonials System: Dedicated testimonials page with client reviews and feedback
+[Testimonial page](./testimonial.png)
 💖 Donations Integration: Custom donation page with payment integration
+[Donate Functioniality](./donate.png)
 🎨 Redesigned Layout: Completely restructured UI to match personal branding
 🧹 Streamlined Content: Removed blog support, video gallery, and gadgets shop for focused experience
 🔧 Custom Data Structure: Modified src/data/ files to support testimonials and donation features
@@ -27,7 +29,7 @@ UI Components: shadcn/ui
 Animations: Framer Motion
 Content: Custom data structures (removed MDX dependency)
 Deployment: Vercel
-
+```
 📁 Modified Project Structure
 ├── public/           # Static assets
 ├── src/
@@ -37,6 +39,7 @@ Deployment: Vercel
 │   ├── components/  # React components (enhanced)
 │   ├── data/        # Modified data files for testimonials
 │   └── lib/         # Utility functions
+```
 🎨 Key Customizations
 
 Testimonials Page: Complete testimonials management with responsive cards and smooth animations
