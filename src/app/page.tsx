@@ -257,7 +257,7 @@ export default function Page() {
             </span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            From AI automation to full-stack development—scalable solutions that drive real results for forward-thinking entrepreneurs.
+            Scalable solutions that drive real results for forward-thinking entrepreneurs.
           </p>
         </div>
       </BlurFade>

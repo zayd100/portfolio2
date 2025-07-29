@@ -47,6 +47,7 @@ const ALIASES = {
   a: 'about',
   t: 'testimonials',
   s: 'skills',
+  se:'services',
   e: 'exp',
   p: 'projects',
   c: 'contact',
@@ -59,6 +60,7 @@ const COMMANDS = {
     'help     (h, ?)  - Show this help message\n' +
     'about    (a)     - Display information about me\n' +
     'skills   (s)     - List my technical skills\n' +
+      'services   (se)     - List Services I provide\n' +
     'projects (p, ls) - List my projects\n' +
     'writing (w) - Show all Research Work and Technical Writing\n'+
     'testimonials (t) -list testimonials recieved\n'+
@@ -70,6 +72,9 @@ const COMMANDS = {
     'Tip: Use Tab for command completion and ↑↓ for command history',
   about: () => `${DATA.name}\n${DATA.description}\n\n${DATA.summary}`,
   skills: () => `Skills:\n${DATA.skills.join(', ')}`,
+   services: () => DATA.services.map(service => 
+    `\n${service.title}\n${service.description}\n${service.image ? `Image: ${service.image}` : ''}\n`
+  ).join('\n'),
 testimonials: () => {
     if (!DATA.testimonials || !Array.isArray(DATA.testimonials)) {
       return 'No testimonials available yet. Check back soon!';
