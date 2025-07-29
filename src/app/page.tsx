@@ -198,7 +198,49 @@ export default function Page() {
             </BlurFade>
           </div>
         </section>
-<section id="services" className="py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+
+
+       
+
+        <section id="hackathons">
+          <div className="space-y-12 w-full py-12">
+            <BlurFade delay={BLUR_FADE_DELAY * 13}>
+              <div className="flex flex-col items-center justify-center space-y-4 text-center">
+                <div className="space-y-2">
+                  <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  Research & Writing
+                  </div>
+                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                   Technical Writing & Documentation
+                  </h2>
+                  <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                   I have done research which covers breakthrough technologies like spatial audio and blockchain, where I've created comprehensive knowledge infrastructures for innovative startups. I'm passionate about political science research in my free time.
+                  </p>
+                </div>
+              </div>
+            </BlurFade>
+            <BlurFade delay={BLUR_FADE_DELAY * 14}>
+              <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
+                {DATA.hackathons.map((project, id) => (
+                  <BlurFade
+                    key={project.title + project.dates}
+                    delay={BLUR_FADE_DELAY * 15 + id * 0.05}
+                  >
+                    <HackathonCardDynamic
+                      title={project.title}
+                      description={project.description}
+                      location={project.location}
+                      dates={project.dates}
+                      image={project.image}
+                      links={project.links}
+                    />
+                  </BlurFade>
+                ))}
+              </ul>
+            </BlurFade>
+          </div>
+        </section>
+      <section id="services" className="py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
   {/* Background decoration */}
   <div className="absolute inset-0 bg-gradient-to-br from-blue-50/30 via-white to-purple-50/30 dark:from-blue-950/10 dark:via-gray-900 dark:to-purple-950/10" />
   <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl" />
@@ -222,7 +264,7 @@ export default function Page() {
       
       <BlurFade delay={BLUR_FADE_DELAY * 10}>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-2">
-          {DATA.services.slice(0, 3).map((service, index) => (
+          {DATA.services.slice(0, 4).map((service, index) => (
             <div 
               key={service.title} 
               className="group relative"
@@ -275,48 +317,6 @@ export default function Page() {
     </div>
   </div>
 </section>
-
-       
-
-        <section id="hackathons">
-          <div className="space-y-12 w-full py-12">
-            <BlurFade delay={BLUR_FADE_DELAY * 13}>
-              <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                <div className="space-y-2">
-                  <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Research & Writing
-                  </div>
-                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                   Technical Writing & Documentation
-                  </h2>
-                  <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                   I have done research which covers breakthrough technologies like spatial audio and blockchain, where I've created comprehensive knowledge infrastructures for innovative startups. I'm passionate about political science research in my free time.
-                  </p>
-                </div>
-              </div>
-            </BlurFade>
-            <BlurFade delay={BLUR_FADE_DELAY * 14}>
-              <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
-                {DATA.hackathons.map((project, id) => (
-                  <BlurFade
-                    key={project.title + project.dates}
-                    delay={BLUR_FADE_DELAY * 15 + id * 0.05}
-                  >
-                    <HackathonCardDynamic
-                      title={project.title}
-                      description={project.description}
-                      location={project.location}
-                      dates={project.dates}
-                      image={project.image}
-                      links={project.links}
-                    />
-                  </BlurFade>
-                ))}
-              </ul>
-            </BlurFade>
-          </div>
-        </section>
-      
 <section id="testimonials">
           <div className="space-y-12 w-full py-12">
             <BlurFade delay={BLUR_FADE_DELAY * 11}>

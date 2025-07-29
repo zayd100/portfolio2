@@ -168,49 +168,43 @@ Technical Writer & Researcher`,
     },
    
   ],
-  services: [
-      {
-        title: "Custom Web Applications",
-        price:"",
-        description: "Let's discuss how your business can be improved by AI automation and using AI for your business Efficiency!",
-        image:"/images/zyzd.png"
-      },
-         {
-        title: " No-Code/Low-Code Solutions",
-        price:"",
-         description: "Let's discuss how your business can be improved by AI automation and using AI for your business Efficiency!",
-        image:"/images/zyzd.png"
-      },
-         {
-        title: "AI Integration & Automation",
-        price:"",
-        description:"Let's discuss how your business can be improved by AI automation and using AI for your business Efficiency!",
-        image:"/images/zyzd.png"
-      },
-         {
-        title: "Data & Analytics Platforms",
-        price:"",
-        description: "Let's discuss how your business can be improved by AI automation and using AI for your business Efficiency!",
-        image:"/images/zyzd.png"
-      },
-         {
-          
-        title: "Technical Documentaion",
-        price:"",
-        description: "Let's discuss how your business can be improved by AI automation and using AI for your business Efficiency!",
-        image:"/images/zyzd.png"
-      },
-         {
-          
-        title: "Tech Consultancy For Non-Technical Individuals",
-        price:"",
-        description: "Let's discuss how your business can be improved by AI automation and using AI for your business Efficiency!",
-        image:"/images/zyzd.png"
-      },
-      
-      
-      
-      
+ services: [
+  {
+    title: "Custom Web Applications",
+    description: "Tailored apps for your business needs.", // or "Build exactly what you need."
+    image: "/images/web.png",
+    price:"",
+  },
+  {
+    title: "No-Code/Low-Code Solutions", 
+    description: "Fast, flexible tools without heavy coding.", // or "Powerful apps, minimal code."
+    image: "/images/lc.png",
+      price:"",
+  },
+    {
+    title: "Knowledge Base Creation",
+    description: "Centralize expertise, reduce repeat questions.", // or "Answers at their fingertips."
+    image: "/images/kn.png",
+      price:"",
+  },
+  {
+    title: "AI Integration & Automation",
+    description: "Smart workflows to save time.", // or "AI that works for you."
+    image: "/images/ai.png",
+      price:"",
+  },
+  {
+    title: "Data & Analytics Platforms",
+    description: "Turn data into growth.", // or "See insights, act faster."
+    image: "/images/analytics.png",
+      price:"",
+  },
+  {
+    title: "Junior Tech Consulting",
+    description: "Affordable tech guidance for startups.", // or "Tech strategy made simple."
+    image: "/images/consult.png",
+      price:"",
+  }
 
 
   ],
