@@ -38,7 +38,7 @@ export async function GET(request: NextRequest) {
               marginBottom: '20px',
             }}
           >
-            {title || 'Prasenjit Nayak'}
+            {title || 'Zaid Shabbir'}
           </h1>
           <h2
             style={{

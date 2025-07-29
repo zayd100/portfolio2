@@ -1,151 +1,72 @@
-# Portfolio Website
+Enhanced Portfolio Website
+A modern, responsive portfolio website originally created by @StarKnightt, extensively customized with testimonials system, donation functionality, and personalized branding. Built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.
+🌟 Original Features (by StarKnightt)
 
-A modern, responsive portfolio website built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.
+Responsive Design: Looks great on all devices
+Dark/Light Mode: Automatic theme switching based on system preferences
+Animations: Smooth page transitions and micro-interactions with Framer Motion
+GitHub Integration: Live GitHub contribution graph
+SEO Optimized: Meta tags and OpenGraph support
+Performance Focused: Optimized for Core Web Vitals
 
-## 🌟 Features
+✨ My Enhancements & Modifications
 
-- **Responsive Design**: Looks great on all devices
-- **Dark/Light Mode**: Automatic theme switching based on system preferences
-- **Blog Support**: MDX-based blog with syntax highlighting
-- **Video Gallery**: YouTube video integration
-- **Gadgets Shop**: Curated list of recommended products
-- **Animations**: Smooth page transitions and micro-interactions
-- **GitHub Integration**: Live GitHub contribution graph
-- **SEO Optimized**: Meta tags and OpenGraph support
-- **Performance Focused**: Optimized for Core Web Vitals
+📝 Testimonials System: Dedicated testimonials page with client reviews and feedback
+💖 Donations Integration: Custom donation page with payment integration
+🎨 Redesigned Layout: Completely restructured UI to match personal branding
+🧹 Streamlined Content: Removed blog support, video gallery, and gadgets shop for focused experience
+🔧 Custom Data Structure: Modified src/data/ files to support testimonials and donation features
+📱 Enhanced Mobile Experience: Improved responsive design for testimonials and donation flows
 
-## 🚀 Tech Stack
+🚀 Tech Stack
 
-- **Framework**: [Next.js 14](https://nextjs.org/)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **UI Components**: [shadcn/ui](https://ui.shadcn.com/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **Content**: [MDX](https://mdxjs.com/)
-- **Deployment**: [Vercel](https://vercel.com)
+Framework: Next.js 14
+Language: TypeScript
+Styling: Tailwind CSS
+UI Components: shadcn/ui
+Animations: Framer Motion
+Content: Custom data structures (removed MDX dependency)
+Deployment: Vercel
 
-## 📦 Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/StarKnightt/prasendev
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Run the development server:
-```bash
-npm run dev
-```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## 🔧 Configuration
-
-1. Update `src/data/resume.tsx` with your personal information.
-2. Add your blog posts in the `content` directory as MDX files.
-3. Update `src/data/products.ts` to add your recommended products.
-4. Customize theme colors in `tailwind.config.ts`.
-
-## 📁 Project Structure
-
-```
-├── content/          # Blog posts (MDX)
+📁 Modified Project Structure
 ├── public/           # Static assets
 ├── src/
 │   ├── app/         # Next.js app router pages
-│   ├── components/  # React components
-│   ├── data/        # Data files and types
+│   │   ├── testimonials/  # New testimonials page
+│   │   └── donate/        # donation button.
+│   ├── components/  # React components (enhanced)
+│   ├── data/        # Modified data files for testimonials
 │   └── lib/         # Utility functions
-```
+🎨 Key Customizations
 
-## 🎨 Customization
+Testimonials Page: Complete testimonials management with responsive cards and smooth animations
+Donation Integration: Secure payment processing with multiple donation options
+Personal Branding: Custom color scheme and typography matching personal brand
+Simplified Navigation: Focused user journey removing blog/video distractions
 
-### Theme
+🔧 Installation & Setup
 
-The theme can be customized in `tailwind.config.ts`:
+Clone this enhanced version:
 
-```ts
-theme: {
-  extend: {
-    colors: {
-      primary: {...},
-      secondary: {...},
-    }
-  }
-}
-```
+bashgit clone [https://github.com/zayd100/portfolio2.git]
 
-### Content
+Install dependencies:
 
-Update the following files to customize content:
+bashnpm install
 
-- `src/data/resume.tsx`: Personal information and experience
-- `src/data/products.ts`: Recommended products
-- `content/*.mdx`: Blog posts
+Run development server:
 
-## 📝 Adding Blog Posts
+bashnpm run dev
 
-Create a new MDX file in the `content` directory:
+Customize testimonials in src/data/testimonials.ts and donation settings in src/data/donation.ts
 
-```mdx
----
-title: "Your Post Title"
-publishedAt: "2024-01-01"
-summary: "Brief description of your post"
----
+🙏 Credits & Acknowledgments
 
-Your content here...
-```
+Original Template: @StarKnightt for the excellent portfolio foundation
+UI Components: shadcn/ui for beautiful, accessible components
+Animations: Framer Motion for smooth interactions
+Styling: Tailwind CSS for rapid development
+Framework: Next.js team for the amazing framework
 
-## 🛠️ Development
-
-```bash
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Start production server
-npm start
-
-# Lint code
-npm run lint
-```
-
-## 📱 Progressive Web App
-
-This website is PWA-ready with:
-- Service Worker support
-- Offline functionality
-- Install prompt
-- App manifest
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=StarKnightt/prasendev&type=Date)](https://www.star-history.com/#StarKnightt/prasendev&Date)
-
-
-## 🙏 Acknowledgments
-
-- [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
-- [Framer Motion](https://www.framer.com/motion/) for animations
-- [Tailwind CSS](https://tailwindcss.com/) for styling
-- [Next.js](https://nextjs.org/) for the framework
-
+📄 License
+This enhanced version maintains the original MIT License. See LICENSE file for details.
