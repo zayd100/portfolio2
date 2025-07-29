@@ -51,15 +51,11 @@ Simplified Navigation: Focused user journey removing blog/video distractions
 
 Clone this enhanced version:
 
-bashgit clone [https://github.com/zayd100/portfolio2.git]
+git clone [https://github.com/zayd100/portfolio2.git]
 
-Install dependencies:
+Install dependencies.
 
-bashnpm install
 
-Run development server:
-
-bashnpm run dev
 
 Customize testimonials in src/data/testimonials.ts and donation settings in src/data/donation.ts
 
