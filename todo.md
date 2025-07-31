@@ -1,0 +1,2 @@
+get a domain. 
+seo? 
