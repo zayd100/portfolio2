@@ -395,6 +395,24 @@ export default function Page() {
                 <br/>
                    <br/>
                       <br/>
+<section id="calendar">
+  <BlurFade delay={BLUR_FADE_DELAY * 18}>
+    <div className="space-y-4">
+      <h2 className="text-xl font-bold">Book a Call</h2>
+      <p className="text-muted-foreground">
+        Schedule a quick meeting at your convenience.
+      </p>
+      <a
+        href="https://calendly.com/zaidshabbir/free-consultancy"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block px-4 py-2 mt-4 text-white bg-blue-600 rounded hover:bg-blue-700 transition"
+      >
+        Book via Calendly
+      </a>
+    </div>
+  </BlurFade>
+</section>
 
 <section id="donate">
   <BlurFade delay={BLUR_FADE_DELAY * 17}>
