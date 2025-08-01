@@ -1,7 +1,7 @@
 import { Icons } from "@/components/icons";
 import { Description } from "@radix-ui/react-dialog";
 import { url } from "inspector";
-import { Bitcoin, Handshake, DollarSign, Coins, Wallet, CreditCard, Banknote, TrendingUp, TrendingDown, BarChart3, PieChart, ArrowUpDown, Repeat, Shield, Link, Zap, Star, StarHalf, Sparkles, Sparkle, Award, Medal, Crown, Gem, Heart, Bookmark, Trophy, HomeIcon, NotebookIcon, ThumbsDown, VideoIcon, FolderIcon } from "lucide-react";
+import { Bitcoin, Handshake,PhoneCall,DollarSign, Coins, Wallet, CreditCard, Banknote, TrendingUp, TrendingDown, BarChart3, PieChart, ArrowUpDown, Repeat, Shield, Link, Zap, Star, StarHalf, Sparkles, Sparkle, Award, Medal, Crown, Gem, Heart, Bookmark, Trophy, HomeIcon, NotebookIcon, ThumbsDown, VideoIcon, FolderIcon } from "lucide-react";
 import { title } from "process";
 
 export const DATA = {
@@ -38,6 +38,7 @@ Technical Writer & Researcher`,
     { href: "/projects", icon: FolderIcon, label: "Projects" },
     {href: "/services", icon: Handshake, label: "Services"},
     {href: "/testimonials", icon: Star, label: "Testimonials"},
+{href: "#call", icon: PhoneCall, label: "Schedule Free Consultancy",
     {href:"#donate", icon: Bitcoin, label : "Donate"},
   ],
   contact: {
