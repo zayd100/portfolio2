@@ -38,7 +38,7 @@ Technical Writer & Researcher`,
     { href: "/projects", icon: FolderIcon, label: "Projects" },
     {href: "/services", icon: Handshake, label: "Services"},
     {href: "/testimonials", icon: Star, label: "Testimonials"},
-{href: "#call", icon: PhoneCall, label: "Schedule Free Consultancy"},
+{href: "#calendar", icon: PhoneCall, label: "Schedule Free Consultancy"},
     {href:"#donate", icon: Bitcoin, label : "Donate"},
   ],
   contact: {
