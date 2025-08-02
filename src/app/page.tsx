@@ -400,7 +400,7 @@ export default function Page() {
     <div className="space-y-4">
       <h2 className="text-xl font-bold">Book a Call</h2>
       <p className="text-muted-foreground">
-        Schedule a quick meeting at your convenience.
+        Schedule a free consultation
       </p>
       <a
         href="https://calendly.com/zaidshabbir/free-consultancy"
