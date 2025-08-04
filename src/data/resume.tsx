@@ -214,7 +214,7 @@ Technical Writer & Researcher`,
   title: "AskShido",
   href: "",
   active: false,
-  description: "A MERN stack questionnaire platform featuring JWT authentication, progress tracking, and analytics. Users complete 50 questions while visualizing completion stats. Developed with Claude AI assistance.",
+  description: "A questionnaire platform for Lifebushido featuring JWT authentication, progress tracking, and analytics. Users complete 50 questions while visualizing completion stats. Developed with Claude AI assistance.",
   technologies: [
     "MongoDB",
     "Express.js",
