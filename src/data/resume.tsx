@@ -210,6 +210,30 @@ Technical Writer & Researcher`,
 
   ],
   projects: [
+        {
+  title: "AskShido",
+  href: "",
+  active: false,
+  description: "A MERN stack questionnaire platform featuring JWT authentication, progress tracking, and analytics. Users complete 50 questions while visualizing completion stats. Developed with Claude AI assistance.",
+  technologies: [
+    "MongoDB",
+    "Express.js",
+    "React",
+    "Node.js",
+    "JWT Auth",
+    "CSS",
+    "Git",
+  ],
+  links: [
+    {
+      type: "Source",
+      href: "https://github.com/zayd100/askshido",
+      icon: <Icons.github className="size-3" />,
+    },
+  ],
+  image: "/images/askshido.png",
+  video: "",
+},
     {
       title: "Delta",
       href: "",
@@ -237,6 +261,7 @@ Technical Writer & Researcher`,
       image: "/images/deltayo.png",
       video: "",
     },
+
        {
       title: "Zyz Dynamics Intelligence Database",
       href: "https://publish.obsidian.md/zyzd/Welcome",
