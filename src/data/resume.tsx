@@ -30,6 +30,8 @@ Technical Writer & Researcher`,
     "RestAPI",
     "Express.js",
     "Technical Documentation",
+    "Shopify Store Builder",
+    "Sqaurespace"
     "Just-in-time(JIT) Learning",
   ],
 
