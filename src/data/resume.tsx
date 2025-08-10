@@ -31,7 +31,7 @@ Technical Writer & Researcher`,
     "Express.js",
     "Technical Documentation",
     "Shopify Store Builder",
-    "Sqaurespace"
+    "Sqaurespace",
     "Just-in-time(JIT) Learning",
   ],
 
