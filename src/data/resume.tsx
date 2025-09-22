@@ -54,7 +54,9 @@ Technical Writer & Researcher`,
 
         navbar: true,
       },
-              name: "LinkedIn",
+       LinkedIn: {
+         
+        name: "LinkedIn",
         url: "https://www.linkedin.com/in/zaid-shabbir-953b4b184?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         icon: Icons.linkedin,
 
