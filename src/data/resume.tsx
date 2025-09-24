@@ -428,7 +428,13 @@ Technical Writer & Researcher`,
       description:
         "Working with Zaid has been an absolute pleasure, and I can recommend him without reservation. I originally came to him with a simple project and a modest salary. He blew me away with his professionalism, his attention to detail, and the overall quality of work. Since that original hiring I have worked with Zaid on numerous projects ranging from research and copy, to coding and debugging. He is always my first choice when looking for trustworthy help. He easily conceptualizes projects and always provides his feedback taking projects to another level through creativity and enthusiasm for work. What I would say to anyone considering taking on this amazing kid as a work associate is that he exemplifies two qualities so hard to find and hard to vet for, he brings with him infectious enthusiasm, and genuine honesty."
     },
-     
+    {
+      name: "PABlo Bley",
+      image: "/images/pablo.png",
+      headline: "Co-Founder, CTO, Executive Director, VP of Technology, Director of IT, Managing Partner",
+      description: "I had the pleasure of collaborating with Zaid across several projects, and he consistently brought a willing, eager—truly enthusiastic—attitude to every task. He dove into our stack, set up an Obsidian-powered knowledge base that made our research and docs easy to find and maintain, and tightened the content architecture of our CMS (Joomla) projects. On the Next Round project, he partnered seamlessly on the front end—helping by translating ideas into UI improvements. What stands out most is his autodidactic drive: he learns fast, asks smart questions, and documents as he goes. If you need someone who blends research rigor with practical execution, Zaid is that person. I’d work with him again in a heartbeat."
+      
+    }
     
     
   ]
