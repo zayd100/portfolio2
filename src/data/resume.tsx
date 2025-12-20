@@ -220,6 +220,30 @@ Technical Writer & Researcher`,
 
   ],
   projects: [
+      {
+  title: "GNOSIS",
+  href: "",
+  active: false,
+  description: "Gnôsis is a human centric AI CRM built to understand people, not extract from them. It learns through real interaction, context, and lived experience. This is an open foundation inviting builders, thinkers, and practitioners to shape it together. Insight here is not owned, it is cultivated, shared, and turned into action.",
+  technologies: [
+    "MongoDB",
+    "Express.js",
+    "React",
+    "Node.js",
+    "JWT Auth",
+    "Tailwind CSS",
+    "Git",
+  ],
+  links: [
+    {
+      type: "Source",
+      href: "https://github.com/zayd100/Gnosis-v0.0.1",
+      icon: <Icons.github className="size-3" />,
+    },
+  ],
+  image: "/images/crm.png",
+  video: "",
+},
         {
   title: "AskShido",
   href: "",
