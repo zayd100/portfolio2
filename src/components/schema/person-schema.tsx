@@ -11,7 +11,7 @@ export function PersonSchema() {
           name: "Zaid Shabbir",
           alternateName: ["Zaid", "zayd100"],
           description: DATA.description,
-          image: `${DATA.url}/me.png`,
+          
           url: DATA.url,
           sameAs: [
             DATA.contact.social.GitHub.url,
