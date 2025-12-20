@@ -35,14 +35,7 @@ export const metadata: Metadata = {
     description: DATA.summary,
     url: DATA.url,
     siteName: DATA.name,
-    images: [
-      {
-        url: '/hi.png',
-        width: 1200,
-        height: 630,
-        alt: `${DATA.name}'s Portfolio`,
-      },
-    ],
+
     locale: 'en_US',
     type: 'website',
   },
