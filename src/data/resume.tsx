@@ -14,7 +14,7 @@ description: `Full Stack Engineer
 Digital Innovation Consultant
 Technical Writer & Researcher`,
   summary:
-  "I'm a full-stack developer from Pakistan with extensive experience working with US-based entrepreneurs and startups.I've built a strong foundation in modern web technologies while delivering high-quality solutions for Businesses around the world. My work extends beyond development to include comprehensive research in emerging technologies—particularly blockchain applications, spatial audio systems, and decentralized identity solutions using structured knowledge management systems. Currently freelancing and developing my own projects, I'm passionate about turning innovative ideas into robust digital products through both technical implementation and thorough research. Always open to new opportunities, collaborations, and exciting challenges.",
+  "I'm a full-stack developer from Pakistan with 2 years building production apps, working with US-based entrepreneurs and startups.I've built a strong foundation in modern web technologies while delivering high-quality solutions for Businesses around the world. My work extends beyond development to include comprehensive research in emerging technologies—particularly blockchain applications, spatial audio systems, and decentralized identity solutions using structured knowledge management systems. Currently freelancing and developing my own projects, I'm passionate about turning innovative ideas into robust digital products through both technical implementation and thorough research. Always open to new opportunities, collaborations, and exciting challenges.",
 
   avatarUrl: "/hi.png",
   skills: [
