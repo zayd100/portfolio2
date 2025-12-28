@@ -368,34 +368,6 @@ Technical Writer & Researcher`,
       video:
       "",
     },
-        {
-      title: "FurniFlex",
-      href: "github.com/zayd100/jetwiki",
-      active: true,
-      description:
-        "A modern, lightning-fast furniture rental platform built with React.js and Vite. Browse, filter, and rent furniture items with an intuitive user interface and seamless user experience.",
-      technologies: [
-        "CSS",
-        "javascript",
-        "MongoDB",
-        "Express.js",
-        "React",
-        "Node.js",
-      ],
-      
-      links: [
-   
-        {
-          type: "Source",
-          href: "https://github.com/zayd100/jetwiki",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      
-      image: "/images/furni.png",
-      video:
-        "",
-    },
        {
       title: "Shandar Safar",
       href: "",
