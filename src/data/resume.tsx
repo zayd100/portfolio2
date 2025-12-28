@@ -318,8 +318,7 @@ Technical Writer & Researcher`,
       image: "/images/zyzd.png",
       video: "",
     },
-      
-    {
+        {
       title: "JetWiki",
       href: "github.com/zayd100/jetwiki",
       active: true,
@@ -343,6 +342,29 @@ Technical Writer & Researcher`,
       ],
       
       image: "/images/jetwiki.png",
+      video:
+      "",
+    },
+      
+    {
+      title: "HTTP server",
+      href: "https://github.com/zayd100/httplib-starter-server",
+      active: true,
+      description:
+        "C++ HTTP server implements a REST API with request logging middleware, real-time statistics tracking, and dynamic routing capabilities. It features multiple JSON endpoints for status monitoring, time queries, and echo functionality, while maintaining clean, human-readable code with proper error handling and a professional console interface.",
+      technologies: [
+        "C++"
+      ],
+      links: [
+   
+        {
+          type: "Source",
+          href: "https://github.com/zayd100/httplib-starter-server",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      
+      image: "/images/server.png",
       video:
       "",
     },
