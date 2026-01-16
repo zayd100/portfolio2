@@ -6,11 +6,11 @@ function DonatePopup() {
   const [isOpen, setIsOpen] = useState(false);
   const [copied, setCopied] = useState(false);
   // I included Mine you can change for yours.
-  const ethAddress = "0x120648d29d4447FbA14D5360de2ba3095fF7B72c";
+  const solAddress = "GBmt65eGgmPNVVvtV2M1QHooL3hgEsi33u5BdoUuj2Lp";
   
   const copyToClipboard = async () => {
     try {
-      await navigator.clipboard.writeText(ethAddress);
+      await navigator.clipboard.writeText(solAddress);
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch (err) {
@@ -26,7 +26,7 @@ function DonatePopup() {
         className="bg-gradient-to-r from-pink-500 to-red-500 text-white rounded-full p-4 shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2"
       >
         <Gift className="w-5 h-5" />
-        <span className="hidden sm:inline">Support Me Via Ethereum</span>
+        <span className="hidden sm:inline">Support Me Via Solana</span>
       </button>
 
       {/* Popup Overlay */}
@@ -54,14 +54,14 @@ function DonatePopup() {
                 Your support helps me continue building amazing things. Every contribution means a lot!
               </p>
 
-              {/* ETH Address Section */}
+              {/* sol Address Section */}
               <div className="bg-gray-50 rounded-lg p-4 mb-6">
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Ethereum Address
+                  Solana Address
                 </label>
                 <div className="flex items-center gap-2">
                   <div className="flex-1 bg-white border border-gray-300 rounded-md px-3 py-2 text-sm font-mono text-gray-800 break-all">
-                    {ethAddress}
+                    {solAddress}
                   </div>
                   <button
                     onClick={copyToClipboard}
