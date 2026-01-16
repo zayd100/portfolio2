@@ -6,7 +6,7 @@ function DonatePopup() {
   const [isOpen, setIsOpen] = useState(false);
   const [copied, setCopied] = useState(false);
   // I included Mine you can change for yours.
-  const solAddress = "GBmt65eGgmPNVVvtV2M1QHooL3hgEsi33u5BdoUuj2Lp";
+  const solAddress = "0x2890AbeB61ff74c8e60D21BE818B9D1aAC83dad7";
   
   const copyToClipboard = async () => {
     try {
@@ -26,7 +26,7 @@ function DonatePopup() {
         className="bg-gradient-to-r from-pink-500 to-red-500 text-white rounded-full p-4 shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2"
       >
         <Gift className="w-5 h-5" />
-        <span className="hidden sm:inline">Support Me Via Solana</span>
+        <span className="hidden sm:inline">Support Me Via Ethereum</span>
       </button>
 
       {/* Popup Overlay */}
@@ -57,7 +57,7 @@ function DonatePopup() {
               {/* sol Address Section */}
               <div className="bg-gray-50 rounded-lg p-4 mb-6">
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Solana Address
+                  Ethereum Address
                 </label>
                 <div className="flex items-center gap-2">
                   <div className="flex-1 bg-white border border-gray-300 rounded-md px-3 py-2 text-sm font-mono text-gray-800 break-all">
