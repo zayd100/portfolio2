@@ -12,7 +12,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/karachi",
 description: `Technical Consultant helping founders ship MVPs and internal tools`,
   summary:
-  "I'm a full-stack developer from Pakistan with 2 years building production apps, working with US-based entrepreneurs and startups.I've built a strong foundation in modern web technologies while delivering high-quality solutions for Businesses around the world. My work extends beyond development to include comprehensive research in emerging technologies, particularly blockchain applications, spatial audio systems, and decentralized identity solutions using structured knowledge management systems. Currently freelancing and developing my own projects, I'm passionate about turning innovative ideas into robust digital products through both technical implementation and thorough research. Always open to new opportunities, collaborations, and exciting challenges.",
+  "I'm a Technical Consultant with 2 years building production apps, working with US-based entrepreneurs and startups.I've built a strong foundation in modern web technologies while delivering high-quality solutions for Businesses around the world. My work extends beyond development to include comprehensive research in emerging technologies, particularly blockchain applications, spatial audio systems, and decentralized identity solutions using structured knowledge management systems. Currently freelancing and developing my own projects, I'm passionate about turning innovative ideas into robust digital products through both technical implementation and thorough research. Always open to new opportunities, collaborations, and exciting challenges.",
 
   avatarUrl: "/hi.png",
   skills: [
@@ -53,13 +53,6 @@ description: `Technical Consultant helping founders ship MVPs and internal tools
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/zaid-shabbir-953b4b184?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         icon: Icons.linkedin,
-
-        navbar: true,
-      },
-      X: {
-        name: "X",
-        url: "https://x.com/sharpzayd",
-        icon: Icons.x,
 
         navbar: true,
       },
