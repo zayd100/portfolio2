@@ -56,6 +56,14 @@ description: `Technical Consultant helping founders ship MVPs and internal tools
 
         navbar: true,
       },
+            X: {
+        name: "X",
+        url: "https://x.com/sharpzayd",
+        icon: Icons.x,
+
+        navbar: true,
+      },
+
 
       email: {
         name: "Send Email",
