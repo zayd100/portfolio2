@@ -42,18 +42,18 @@ export function ServicesCard({
           <CardTitle className="text-lg sm:text-xl font-bold text-foreground leading-tight">
             {title}
           </CardTitle>
- <Badge 
-  variant="secondary" 
-className="
-  flex-shrink-0
-  bg-white text-primary border border-primary/30
-  dark:bg-primary/10 dark:text-primary dark:border-primary/20
-  font-semibold px-2 sm:px-3 py-1 text-xs sm:text-sm
-"
-
+<Badge
+  variant="secondary"
+  className="
+    flex-shrink-0
+    bg-white text-blue-700 border border-blue-300
+    dark:bg-blue-500/10 dark:text-blue-400 dark:border-blue-500/20
+    font-semibold px-2 sm:px-3 py-1 text-xs sm:text-sm
+  "
 >
   {price}
 </Badge>
+
 
         </div>
       </CardHeader>
