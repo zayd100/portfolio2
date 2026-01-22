@@ -383,7 +383,7 @@ export default function Page() {
 <section id="donate">
   <BlurFade delay={BLUR_FADE_DELAY * 17}>
     <div className="space-y-4">
-      <h2 className="text-xl font-bold">Support</h2>
+      <h2 className="text-xl font-bold">Donate</h2>
       <p className="text-muted-foreground">
         Your support helps me continue building amazing projects.
       </p>
