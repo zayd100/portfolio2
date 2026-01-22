@@ -21,7 +21,7 @@ export function ServicesCard({
 }: ServiceCardProps) {
   return (
     <Card className={cn(
-      "flex flex-col overflow-hidden border-2 border-border/50 hover:shadow-xl transition-all duration-300 ease-out h-full relative group",
+      "flex flex-col overflow-hidden border-2 border-border/50 h-full relative",
       "bg-gradient-to-br from-card via-card to-muted/20",
       className
     )}>
@@ -31,7 +31,7 @@ export function ServicesCard({
             src={image}
             alt={title}
             fill
-            className="object-cover transition-transform duration-500 group-hover:scale-110"
+            className="object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/20 to-transparent" />
         </div>

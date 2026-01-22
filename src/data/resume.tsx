@@ -211,10 +211,10 @@ description: `Technical Consultant helping founders ship MVPs and internal tools
   ],
   projects: [
       {
-  title: "GNOSIS",
+  title: "Gnosis-CRM",
   href: "",
   active: false,
-  description: "Gnôsis is a human centric AI CRM built to understand people, not extract from them. It learns through real interaction, context, and lived experience. This is an open foundation inviting builders, thinkers, and practitioners to shape it together. Insight here is not owned, it is cultivated, shared, and turned into action.",
+  description: "A production-ready, role-based lead management system with advanced analytics and fully functional dashboards for Admins, Warmers, and Closers.",
   technologies: [
     "MongoDB",
     "Express.js",
