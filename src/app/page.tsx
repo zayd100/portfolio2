@@ -340,6 +340,7 @@ export default function Page() {
                         headline={testimonial.headline}
                         image={testimonial.image}
                         description={testimonial.description}
+                        linkedin={testimonial.linkedin}  
                         href="#"
                       />
                     </div>

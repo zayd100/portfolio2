@@ -29,7 +29,7 @@ export default function TestimonialsPage() {
                 headline={testimonial.headline}
                 image={testimonial.image}
                 description={testimonial.description}
-                href="#"
+                  linkedin={testimonial.linkedin} 
               />
             </div>
           </BlurFade>

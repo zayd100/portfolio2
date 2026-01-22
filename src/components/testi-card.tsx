@@ -11,6 +11,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Markdown from "react-markdown";
 import { BorderBeam } from "@/components/magicui/border-beam";
+import { Linkedin } from "lucide-react"; // Import LinkedIn icon
 
 interface Props {
   title: string;
@@ -26,6 +27,7 @@ interface Props {
     type: string;
     href: string;
   }[];
+  linkedin?: string; // Add this
   className?: string;
 }
 
@@ -39,6 +41,7 @@ export function TestiCard({
   image,
   video,
   links,
+  linkedin, // Add this
   className,
 }: Props) {
   return (
@@ -83,6 +86,20 @@ export function TestiCard({
           </div>
         </div>
       </CardHeader>
+      
+      {/* Add LinkedIn link in CardFooter */}
+      {linkedin && (
+        <CardFooter className="px-4 sm:px-8 pb-4 sm:pb-6 pt-0">
+          <Link
+            href={linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors duration-200"
+          >
+            <Linkedin className="w-8 h-8" />
+          </Link>
+        </CardFooter>
+      )}
       
       <BorderBeam
         duration={8}
