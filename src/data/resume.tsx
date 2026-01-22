@@ -176,41 +176,36 @@ description: `Technical Consultant helping founders ship MVPs and internal tools
   ],
  services: [
   {
-    title: "Custom Web Applications",
-    description: "Tailored apps for your business needs.", // or "Build exactly what you need."
+    title: "Internal Tools & Dashboards",
+    description: "Build the Internal Tool You Wish Existed.", // or "Build exactly what you need."
     image: "/images/web.png",
-    price:"",
+    price:"Starting at $950",
   },
   {
-    title: "No-Code/Low-Code Solutions", 
-    description: "Fast, flexible tools without heavy coding.", // or "Powerful apps, minimal code."
+    title: "Rapid Landing Pages", 
+    description: "Launch Your Landing Page This Week, Not Next Month.", // or "Powerful apps, minimal code."
     image: "/images/lc.png",
-      price:"",
+      price:"Starting at $500",
   },
     {
-    title: "Knowledge Base Creation",
-    description: "Centralize expertise, reduce repeat questions.", // or "Answers at their fingertips."
+    title: "Web Scraping Services",
+    description: "Your Competitors Are Watching the Market. Are You?", // or "Answers at their fingertips."
     image: "/images/kn.png",
-      price:"",
-  },
-  {
-    title: "AI Integration & Automation",
-    description: "Smart workflows to save time.", // or "AI that works for you."
-    image: "/images/ai.png",
-      price:"",
+      price:"Starting at $600",
   },
   {
     title: "Data & Analytics Platforms",
     description: "Turn data into growth.", // or "See insights, act faster."
     image: "/images/analytics.png",
-      price:"",
+      price:"starting at $450",
   },
-  {
-    title: "Tech Consulting",
-    description: "Affordable tech guidance for startups.", // or "Tech strategy made simple."
-    image: "/images/consult.png",
-      price:"",
-  }
+    {
+    title: "Knowledge Base System",
+    description: "Centralize your team's knowledge with Data visualization software", // or "AI that works for you."
+    image: "/images/ai.png",
+      price:"starting at $350",
+  },
+  
 
 
   ],
