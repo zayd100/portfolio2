@@ -1,67 +1,46 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { cn } from "@/lib/utils";
 import Image from "next/image";
-import { BorderBeam } from "@/components/magicui/border-beam";
 
 interface ServiceCardProps {
   title: string;
   price: string;
   description: string;
   image?: string;
-  className?: string;
 }
 
-export function ServicesCard({ 
-  title, 
-  price, 
-  description, 
-  image,
-  className 
-}: ServiceCardProps) {
+export function ServicesCard({ title, price, description, image }: ServiceCardProps) {
   return (
-    <Card className={cn(
-      "flex flex-col overflow-hidden border-2 border-border/50 h-full relative",
-      "bg-gradient-to-br from-card via-card to-muted/20",
-      className
-    )}>
+    <Card className="h-full border-0 bg-transparent shadow-none">
       {image && (
-        <div className="relative h-48 w-full overflow-hidden">
+        <div className="relative h-40 w-full overflow-hidden rounded-xl mb-6">
           <Image
             src={image}
             alt={title}
             fill
-            className="object-cover"
+            className="object-cover" // removed hover scaling
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/20 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
         </div>
       )}
-      
-      <CardHeader className="px-4 sm:px-6 pt-6 pb-3">
-        <div className="flex items-start justify-between gap-3 mb-2">
-          <CardTitle className="text-lg sm:text-xl font-bold text-foreground leading-tight">
+      <CardHeader className="pb-4 px-0">
+        <div className="flex items-start justify-between gap-3">
+          <CardTitle className="text-xl font-bold text-gray-900 dark:text-white leading-tight">
             {title}
           </CardTitle>
-          <Badge 
-            variant="secondary" 
-            className="flex-shrink-0 bg-primary/10 text-primary border border-primary/20 font-semibold px-2 sm:px-3 py-1 text-xs sm:text-sm"
+          <Badge
+            variant="secondary"
+            className="bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900/50 dark:to-purple-900/50 text-blue-800 dark:text-blue-200 border-0 font-semibold whitespace-nowrap px-3 py-1 text-sm"
           >
             {price}
           </Badge>
         </div>
       </CardHeader>
-      
-      <CardContent className="px-4 sm:px-6 pb-6 flex-1">
-        <CardDescription className="text-sm sm:text-base text-muted-foreground leading-relaxed">
+      <CardContent className="px-0 pt-0">
+        <CardDescription className="text-base text-gray-600 dark:text-gray-300 leading-relaxed">
           {description}
         </CardDescription>
       </CardContent>
-      
-      <BorderBeam
-        duration={8}
-        size={200}
-        className="from-transparent via-primary/30 to-transparent opacity-40"
-      />
     </Card>
   );
 }
