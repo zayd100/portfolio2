@@ -200,10 +200,10 @@ description: `helping founders ship MVPs, internal tools, and Landing pages`,
       price:"starting at $450",
   },
     {
-    title: "Knowledge Base System",
-    description: "Centralize your team's knowledge with Data visualization software", // or "AI that works for you."
+    title: "Custom Project",
+    description: "Need Something Different?", // or "AI that works for you."
     image: "/images/ai.png",
-      price:"starting at $350",
+      price:"Depends on scope",
   },
   
 
