@@ -31,7 +31,7 @@ description: `helping founders ship MVPs, internal tools, and Landing pages`,
     "JavaScript",
     "Technical Documentation",
     "Shopify Store Builder",
-    "Sqaurespace",
+    "Squarepace",
     "Just-in-time(JIT) Learning",
   ],
 
