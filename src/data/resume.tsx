@@ -181,29 +181,30 @@ description: `helping founders ship MVPs, internal tools, and Landing pages`,
   ],
  services: [
   {
-    title: "Internal Tools & Dashboards",
-    description: "Build the Internal Tool You Wish Existed.", // or "Build exactly what you need."
+    title: "MVP Development for Founders",
+    description: "Ship your idea in 2 weeks. Full-stack MVP with auth, database, and deployment.", // or "Build exactly what you need."
     image: "/images/web.png",
-    price:"Starting at $950",
+    price:"Starting at $1500",
+  },
+    {
+    title: "AI Business Automation",
+    description: "Custom AI for support, emails, documents, or data. Integrated with your existing systems.", // or "See insights, act faster."
+    image: "/images/analytics.png",
+      price:"starting at $1200",
   },
   {
     title: "Rapid Landing Pages", 
-    description: "Launch Your Landing Page This Week, Not Next Month.", // or "Powerful apps, minimal code."
+    description: "Professional landing page delivered in 3-5 days. Mobile-responsive, fast-loading, and optimized for conversions.", // or "Powerful apps, minimal code."
     image: "/images/lc.png",
       price:"Starting at $500",
   },
     {
-    title: "Web Scraping Services",
-    description: "Your Competitors Are Watching the Market. Are You?", // or "Answers at their fingertips."
+    title: "Knowledge Base Development",
+    description: "Turn messy documents, FAQs, and internal knowledge into a well-structured knowledge base.", // or "Answers at their fingertips."
     image: "/images/kn.png",
       price:"Starting at $600",
   },
-  {
-    title: "Data & Analytics Platforms",
-    description: "Turn data into growth.", // or "See insights, act faster."
-    image: "/images/analytics.png",
-      price:"starting at $450",
-  },
+
     {
     title: "Custom Project",
     description: "Need Something Different?", // or "AI that works for you."
