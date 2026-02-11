@@ -234,7 +234,7 @@ description: `helping founders ship MVPs, internal tools, and Landing pages`,
     },
   ],
   image: "/images/crm.png",
-  video: "",
+  video: "https://player.vimeo.com/video/1164041318",
 },
         {
   title: "AskShido",

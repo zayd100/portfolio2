@@ -1,7 +1,6 @@
 "use client";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { formatDate } from "@/lib/utils";
 import Image from "next/image";
 import { PlayIcon } from "lucide-react";
 import { useState } from "react";
@@ -39,9 +38,7 @@ export function VideoCard({ video }: VideoCardProps) {
           </div>
           <CardHeader className="p-4">
             <CardTitle className="text-lg">{video.title}</CardTitle>
-            <time className="text-sm text-muted-foreground">
-              {formatDate(video.date)}
-            </time>
+            <time className="text-sm text-muted-foreground">{video.date}</time>
           </CardHeader>
           <CardContent className="p-4 pt-0">
             <p className="text-sm text-muted-foreground">{video.description}</p>
