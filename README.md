@@ -1,10 +1,10 @@
-## Enhanced Portfolio Website
+##  Portfolio Website
 
 A modern, responsive portfolio website originally created by @StarKnightt, extensively customized with testimonials system, donation functionality, and personalized branding. Built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.
 
 ---
 
-## Original Features (by StarKnightt)
+## Original Features 
 
 * **Responsive Design:** Looks great on all devices
 * **Dark/Light Mode:** Automatic theme switching based on system preferences
@@ -15,7 +15,7 @@ A modern, responsive portfolio website originally created by @StarKnightt, exten
 
 ---
 
-## My Enhancements & Modifications
+##  Modifications
 
 * **Testimonials System:** Dedicated testimonials page with client reviews and feedback
   ![Testimonial page](./testimonial.png)
