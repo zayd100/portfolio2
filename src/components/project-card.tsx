@@ -21,7 +21,7 @@ interface Props {
   title: string;
   href?: string;
   description: string;
-  dates: string;
+  dates?: string;
   tags?: readonly string[];
   link?: string;
   image?: string;
