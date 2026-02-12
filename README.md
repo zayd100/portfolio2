@@ -4,7 +4,7 @@ A modern, responsive portfolio website originally created by @StarKnightt, exten
 
 ---
 
-## Original Features (by StarKnightt)
+## Original Features 
 
 * **Responsive Design:** Looks great on all devices
 * **Dark/Light Mode:** Automatic theme switching based on system preferences
