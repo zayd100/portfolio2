@@ -1,10 +1,10 @@
-## Enhanced Portfolio 
+## Enhanced Portfolio Website
 
 A modern, responsive portfolio website originally created by @StarKnightt, extensively customized with testimonials system, donation functionality, and personalized branding. Built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.
 
 ---
 
-## Original Features 
+## Original Features (by StarKnightt)
 
 * **Responsive Design:** Looks great on all devices
 * **Dark/Light Mode:** Automatic theme switching based on system preferences
@@ -26,6 +26,13 @@ A modern, responsive portfolio website originally created by @StarKnightt, exten
 * **Services Offered:** With a separate page, you can add pricing too!
   ![Services Offered](./services.png)
 
+* **Video Preview System Upgrade:** Replaced YouTube-only preview logic with support for:
+
+  * Local storage hosted videos (served from `/public`)
+  * Vimeo-hosted embedded demo videos
+  * Updated modal logic to dynamically detect and render the correct player type
+![Vimeo-video support](./vimeo.png)
+
 * **Redesigned Layout:** Completely restructured UI to match personal branding
 
 * **Streamlined Content:** Removed blog support, video gallery, and gadgets shop for focused experience
@@ -44,6 +51,7 @@ A modern, responsive portfolio website originally created by @StarKnightt, exten
 * **UI Components:** shadcn/ui
 * **Animations:** Framer Motion
 * **Content:** Custom data structures (removed MDX dependency)
+* **Video Hosting:** Vimeo + Local static video support
 * **Deployment:** Vercel
 
 ---
@@ -51,8 +59,8 @@ A modern, responsive portfolio website originally created by @StarKnightt, exten
 ## Modified Project Structure
 
 ```
- Modified Project Structure
-├── public/           # Static assets
+ Portfolio2
+├── public/           # Static assets + local demo videos
 ├── src/
 │   ├── app/         # Next.js app router pages
 │   │   ├── testimonials/  # New testimonials page
@@ -68,6 +76,7 @@ A modern, responsive portfolio website originally created by @StarKnightt, exten
 
 * **Testimonials Page:** Complete testimonials management with responsive cards and smooth animations
 * **Donation Integration:** Secure payment processing with multiple donation options
+* **Video Modal Refactor:** Smart video rendering system supporting Vimeo embeds and locally hosted videos
 * **Personal Branding:** Custom color scheme and typography matching personal brand
 * **Simplified Navigation:** Focused user journey removing blog/video distractions
 
@@ -84,6 +93,11 @@ git clone https://github.com/zayd100/portfolio2.git
 Install dependencies.
 
 Customize testimonials in `src/data/testimonials.ts` and donation settings in `src/data/donation.ts`.
+
+For demo videos:
+
+* Place local videos inside `/public`
+* Or use Vimeo embed URLs in your project data files
 
 ---
 
