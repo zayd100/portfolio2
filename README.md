@@ -1,38 +1,57 @@
-Enhanced Portfolio Website
+## Enhanced Portfolio 
+
 A modern, responsive portfolio website originally created by @StarKnightt, extensively customized with testimonials system, donation functionality, and personalized branding. Built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.
- Original Features (by StarKnightt)
 
-Responsive Design: Looks great on all devices
-Dark/Light Mode: Automatic theme switching based on system preferences
-Animations: Smooth page transitions and micro-interactions with Framer Motion
-GitHub Integration: Live GitHub contribution graph
-SEO Optimized: Meta tags and OpenGraph support
-Performance Focused: Optimized for Core Web Vitals
+---
 
- My Enhancements & Modifications
+## Original Features (by StarKnightt)
 
- Testimonials System: Dedicated testimonials page with client reviews and feedback
-![Testimonial page](./testimonial.png)
- Donations Integration: Custom donation page with payment integration
-![Donate Functioniality](./donate.png)
-Services Offered: With a separate page, you can add pricing too!
-![Services Offered](./services.png)
- Redesigned Layout: Completely restructured UI to match personal branding
- Streamlined Content: Removed blog support, video gallery, and gadgets shop for focused experience
- Custom Data Structure: Modified src/data/ files to support testimonials and donation features
- Enhanced Mobile Experience: Improved responsive design for testimonials and donation flows
+* **Responsive Design:** Looks great on all devices
+* **Dark/Light Mode:** Automatic theme switching based on system preferences
+* **Animations:** Smooth page transitions and micro-interactions with Framer Motion
+* **GitHub Integration:** Live GitHub contribution graph
+* **SEO Optimized:** Meta tags and OpenGraph support
+* **Performance Focused:** Optimized for Core Web Vitals
 
- Tech Stack
+---
 
-Framework: Next.js 14
-Language: TypeScript
-Styling: Tailwind CSS
-UI Components: shadcn/ui
-Animations: Framer Motion
-Content: Custom data structures (removed MDX dependency)
-Deployment: Vercel
+## My Enhancements & Modifications
+
+* **Testimonials System:** Dedicated testimonials page with client reviews and feedback
+  ![Testimonial page](./testimonial.png)
+
+* **Donations Integration:** Custom donation page with payment integration
+  ![Donate Functioniality](./donate.png)
+
+* **Services Offered:** With a separate page, you can add pricing too!
+  ![Services Offered](./services.png)
+
+* **Redesigned Layout:** Completely restructured UI to match personal branding
+
+* **Streamlined Content:** Removed blog support, video gallery, and gadgets shop for focused experience
+
+* **Custom Data Structure:** Modified `src/data/` files to support testimonials and donation features
+
+* **Enhanced Mobile Experience:** Improved responsive design for testimonials and donation flows
+
+---
+
+## Tech Stack
+
+* **Framework:** Next.js 14
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS
+* **UI Components:** shadcn/ui
+* **Animations:** Framer Motion
+* **Content:** Custom data structures (removed MDX dependency)
+* **Deployment:** Vercel
+
+---
+
+## Modified Project Structure
+
 ```
-📁 Modified Project Structure
+ Modified Project Structure
 ├── public/           # Static assets
 ├── src/
 │   ├── app/         # Next.js app router pages
@@ -42,32 +61,42 @@ Deployment: Vercel
 │   ├── data/        # Modified data files for testimonials
 │   └── lib/         # Utility functions.
 ```
- Key Customizations
 
-Testimonials Page: Complete testimonials management with responsive cards and smooth animations
-Donation Integration: Secure payment processing with multiple donation options
-Personal Branding: Custom color scheme and typography matching personal brand
-Simplified Navigation: Focused user journey removing blog/video distractions
+---
 
- Installation & Setup
+## Key Customizations
+
+* **Testimonials Page:** Complete testimonials management with responsive cards and smooth animations
+* **Donation Integration:** Secure payment processing with multiple donation options
+* **Personal Branding:** Custom color scheme and typography matching personal brand
+* **Simplified Navigation:** Focused user journey removing blog/video distractions
+
+---
+
+## Installation & Setup
 
 Clone this enhanced version:
 
-git clone [https://github.com/zayd100/portfolio2.git]
+```
+git clone https://github.com/zayd100/portfolio2.git
+```
 
 Install dependencies.
 
+Customize testimonials in `src/data/testimonials.ts` and donation settings in `src/data/donation.ts`.
 
+---
 
-Customize testimonials in src/data/testimonials.ts and donation settings in src/data/donation.ts
+## Credits & Acknowledgments
 
-Credits & Acknowledgments
+* **Original Template:** @StarKnightt for the excellent portfolio foundation
+* **UI Components:** shadcn/ui for beautiful, accessible components
+* **Animations:** Framer Motion for smooth interactions
+* **Styling:** Tailwind CSS for rapid development
+* **Framework:** Next.js team for the amazing framework
 
-Original Template: @StarKnightt for the excellent portfolio foundation
-UI Components: shadcn/ui for beautiful, accessible components
-Animations: Framer Motion for smooth interactions
-Styling: Tailwind CSS for rapid development
-Framework: Next.js team for the amazing framework
+---
 
-License
+## License
+
 This enhanced version maintains the original MIT License. See LICENSE file for details.
