@@ -65,15 +65,15 @@ export function ProjectCard({
           className="block cursor-pointer relative overflow-hidden"
           onClick={handleCardClick}
         >
-          {video && (
-            <video
-              src={video}
-              loop
-              muted
-              playsInline
-              className="pointer-events-none mx-auto h-40 w-full object-cover object-top transition-transform duration-500 group-hover:scale-105 group-hover:blur-[2px]"
-            />
-          )}
+ {video && (
+  <div className="relative h-40 w-full overflow-hidden">
+    <iframe
+      src={`${video}?autoplay=1&loop=1&muted=1&background=1&quality=360p`}
+      allow="autoplay; fullscreen"
+      className="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[177.78%] h-[177.78%] transition-transform duration-500 group-hover:scale-105 group-hover:blur-[2px]"
+    />
+  </div>
+)}
           {image && !video && (
             <Image
               src={image}

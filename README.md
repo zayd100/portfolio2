@@ -61,7 +61,7 @@ Install dependencies.
 
 Customize testimonials in src/data/testimonials.ts and donation settings in src/data/donation.ts
 
-🙏 Credits & Acknowledgments
+Credits & Acknowledgments
 
 Original Template: @StarKnightt for the excellent portfolio foundation
 UI Components: shadcn/ui for beautiful, accessible components
@@ -69,5 +69,5 @@ Animations: Framer Motion for smooth interactions
 Styling: Tailwind CSS for rapid development
 Framework: Next.js team for the amazing framework
 
-📄 License
+License
 This enhanced version maintains the original MIT License. See LICENSE file for details.

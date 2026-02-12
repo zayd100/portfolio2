@@ -237,6 +237,33 @@ description: `helping founders ship MVPs, internal tools, and Landing pages`,
   video: "https://player.vimeo.com/video/1164041318",
 },
         {
+      title: "JetWiki",
+      href: "github.com/zayd100/jetwiki",
+      active: true,
+      description:
+        "A full-stack MERN (MongoDB, Express, React, Node.js) application template showcasing historical air combat operations, jets, and defense companies. Perfect for learning full-stack development or as a starting point for your own projects.",
+      technologies: [
+        "CSS",
+        "javascript",
+        "MongoDB",
+        "Express.js",
+        "React",
+        "Node.js",
+      ],
+      links: [
+   
+        {
+          type: "Source",
+          href: "https://github.com/zayd100/jetwiki",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      
+      image: "/images/jetwiki.png",
+      video:
+      "https://player.vimeo.com/video/1164249396",
+    },
+        {
   title: "AskShido",
   href: "",
   active: false,
@@ -258,7 +285,7 @@ description: `helping founders ship MVPs, internal tools, and Landing pages`,
     },
   ],
   image: "/images/askshido.png",
-  video: "",
+  video: "https://player.vimeo.com/video/1164251877",
 },
     {
       title: "Delta",
@@ -287,6 +314,30 @@ description: `helping founders ship MVPs, internal tools, and Landing pages`,
       image: "/images/deltayo.png",
       video: "https://player.vimeo.com/video/1164062331",
     },
+       {
+      title: "Shandar Safar",
+      href: "",
+      active: false,
+      description:
+        "A responsive web application showcasing Pakistan's beautiful destinations with an interactive map and image gallery.",
+      technologies: [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        
+      ],
+      links: [
+   
+        {
+          type: "Source",
+          href: "https://zayd100.github.io/pakistan-tourism-guide/#home",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/images/tour.png",
+      video: "https://player.vimeo.com/video/1164252558",
+    },
+  
 
        {
       title: "Zyz Dynamics Intelligence Database",
@@ -308,36 +359,10 @@ description: `helping founders ship MVPs, internal tools, and Landing pages`,
        
       ],
       image: "/images/zyzd.png",
-      video: "",
+      video: "https://player.vimeo.com/video/1164253515",
     },
-        {
-      title: "JetWiki",
-      href: "github.com/zayd100/jetwiki",
-      active: true,
-      description:
-        "A full-stack MERN (MongoDB, Express, React, Node.js) application template showcasing historical air combat operations, jets, and defense companies. Perfect for learning full-stack development or as a starting point for your own projects.",
-      technologies: [
-        "CSS",
-        "javascript",
-        "MongoDB",
-        "Express.js",
-        "React",
-        "Node.js",
-      ],
-      links: [
-   
-        {
-          type: "Source",
-          href: "https://github.com/zayd100/jetwiki",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      
-      image: "/images/jetwiki.png",
-      video:
-      "",
-    },
-      
+
+      /*
     {
       title: "HTTP server",
       href: "https://github.com/zayd100/httplib-starter-server",
@@ -360,30 +385,7 @@ description: `helping founders ship MVPs, internal tools, and Landing pages`,
       video:
       "",
     },
-       {
-      title: "Shandar Safar",
-      href: "",
-      active: false,
-      description:
-        "A responsive web application showcasing Pakistan's beautiful destinations with an interactive map and image gallery.",
-      technologies: [
-        "JavaScript",
-        "HTML",
-        "CSS",
-        
-      ],
-      links: [
-   
-        {
-          type: "Source",
-          href: "https://zayd100.github.io/pakistan-tourism-guide/#home",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/images/tour.png",
-      video: "",
-    },
-  
+    */
 
   ],
   //this is actually my research work so i am not changing the var names, keeping it the same as they were.
