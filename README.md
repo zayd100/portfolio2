@@ -1,6 +1,6 @@
 Enhanced Portfolio Website
 A modern, responsive portfolio website originally created by @StarKnightt, extensively customized with testimonials system, donation functionality, and personalized branding. Built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.
-🌟 Original Features (by StarKnightt)
+ Original Features (by StarKnightt)
 
 Responsive Design: Looks great on all devices
 Dark/Light Mode: Automatic theme switching based on system preferences
@@ -9,20 +9,20 @@ GitHub Integration: Live GitHub contribution graph
 SEO Optimized: Meta tags and OpenGraph support
 Performance Focused: Optimized for Core Web Vitals
 
-✨ My Enhancements & Modifications
+ My Enhancements & Modifications
 
-📝 Testimonials System: Dedicated testimonials page with client reviews and feedback
+ Testimonials System: Dedicated testimonials page with client reviews and feedback
 ![Testimonial page](./testimonial.png)
-💖 Donations Integration: Custom donation page with payment integration
+ Donations Integration: Custom donation page with payment integration
 ![Donate Functioniality](./donate.png)
 Services Offered: With a separate page, you can add pricing too!
 ![Services Offered](./services.png)
-🎨 Redesigned Layout: Completely restructured UI to match personal branding
-🧹 Streamlined Content: Removed blog support, video gallery, and gadgets shop for focused experience
-🔧 Custom Data Structure: Modified src/data/ files to support testimonials and donation features
-📱 Enhanced Mobile Experience: Improved responsive design for testimonials and donation flows
+ Redesigned Layout: Completely restructured UI to match personal branding
+ Streamlined Content: Removed blog support, video gallery, and gadgets shop for focused experience
+ Custom Data Structure: Modified src/data/ files to support testimonials and donation features
+ Enhanced Mobile Experience: Improved responsive design for testimonials and donation flows
 
-🚀 Tech Stack
+ Tech Stack
 
 Framework: Next.js 14
 Language: TypeScript
@@ -42,14 +42,14 @@ Deployment: Vercel
 │   ├── data/        # Modified data files for testimonials
 │   └── lib/         # Utility functions.
 ```
-🎨 Key Customizations
+ Key Customizations
 
 Testimonials Page: Complete testimonials management with responsive cards and smooth animations
 Donation Integration: Secure payment processing with multiple donation options
 Personal Branding: Custom color scheme and typography matching personal brand
 Simplified Navigation: Focused user journey removing blog/video distractions
 
-🔧 Installation & Setup
+ Installation & Setup
 
 Clone this enhanced version:
 
