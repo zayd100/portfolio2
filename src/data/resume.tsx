@@ -241,7 +241,7 @@ description: `helping founders ship MVPs, internal tools, and Landing pages`,
       href: "github.com/zayd100/jetwiki",
       active: true,
       description:
-        "A full-stack MERN (MongoDB, Express, React, Node.js) application template showcasing historical air combat operations, jets, and defense companies. Perfect for learning full-stack development or as a starting point for your own projects.",
+        "Explore decades of air combat history , missions, the jets that flew them, pilots, and the companies that built them. A full stack web app with an available seeding script for aviation enthusiasts and developers alike.",
       technologies: [
         "CSS",
         "javascript",
